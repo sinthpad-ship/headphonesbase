@@ -1,144 +1,76 @@
-const useCases = [
-  "Music",
-  "Studio",
-  "Digital Piano",
-  "Travel",
-  "Gaming",
-  "Work",
-];
-
-const foundations = [
-  {
-    number: "01",
-    title: "Your use",
-    text: "What you listen to, where you listen and which device you use.",
-  },
-  {
-    number: "02",
-    title: "Your preferences",
-    text: "Balanced, warm, bass-forward, vocal-focused or analytical sound.",
-  },
-  {
-    number: "03",
-    title: "Verified products",
-    text: "Recommendations built from structured product data—not invented specifications.",
-  },
-];
-
 export default function Home() {
   return (
-    <main>
-      <nav className="nav shell">
-        <a className="brand" href="#" aria-label="HeadphonesBase home">
-          <span className="brandMark">HB</span>
-          <span>HeadphonesBase</span>
-        </a>
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#07090d",
+        color: "#f6f8fb",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: "Arial, sans-serif",
+        padding: "40px",
+      }}
+    >
+      <section style={{ maxWidth: "900px" }}>
+        <p
+          style={{
+            color: "#82f7c7",
+            textTransform: "uppercase",
+            letterSpacing: "0.18em",
+            fontSize: "12px",
+          }}
+        >
+          Personal Audio Intelligence
+        </p>
 
-        <div className="navLinks" aria-label="Primary navigation">
-          <a href="#method">Method</a>
-          <a href="#categories">Categories</a>
-          <span className="status">Private beta</span>
-        </div>
-      </nav>
-
-      <section className="hero shell">
-        <div className="eyebrow">
-          <span className="pulse" />
-          Personal audio intelligence
-        </div>
-
-        <h1>
+        <h1
+          style={{
+            fontSize: "clamp(48px, 8vw, 90px)",
+            lineHeight: "0.98",
+            letterSpacing: "-0.05em",
+            margin: "24px 0",
+          }}
+        >
           Your ears are not average.
-          <span>Your headphones shouldn’t be either.</span>
+          <span
+            style={{
+              display: "block",
+              color: "#9ea8b7",
+            }}
+          >
+            Your headphones shouldn&apos;t be either.
+          </span>
         </h1>
 
-        <p className="lead">
-          Find headphones matched to your music, equipment, environment and
-          listening preferences—not a generic top-ten list.
+        <p
+          style={{
+            maxWidth: "650px",
+            color: "#bec6d2",
+            fontSize: "20px",
+            lineHeight: "1.6",
+          }}
+        >
+          HeadphonesBase helps you find headphones matched to your music,
+          devices, environment and listening preferences.
         </p>
 
-        <div className="heroActions">
-          <button className="primary" type="button">
-            Find My Sound
-            <span aria-hidden="true">→</span>
-          </button>
-          <a className="secondary" href="#method">
-            See how it works
-          </a>
-        </div>
-
-        <p className="microcopy">
-          Recommendation engine in development. No account required for the
-          first version.
-        </p>
-
-        <div className="visual" aria-label="Abstract audio compatibility display">
-          <div className="orb orbOne" />
-          <div className="orb orbTwo" />
-          <div className="visualGrid" />
-          <div className="scoreCard">
-            <div className="scoreHeader">
-              <span>Personal match</span>
-              <strong>94%</strong>
-            </div>
-            <div className="productLine">
-              <div className="headphoneIcon">◖●◗</div>
-              <div>
-                <small>Best fit</small>
-                <h2>Studio Reference X</h2>
-                <p>Closed-back · balanced · low-fatigue</p>
-              </div>
-            </div>
-            <div className="meters">
-              <div><span>Use case</span><i style={{ width: "96%" }} /></div>
-              <div><span>Sound profile</span><i style={{ width: "90%" }} /></div>
-              <div><span>Device match</span><i style={{ width: "88%" }} /></div>
-            </div>
-          </div>
-        </div>
+        <button
+          type="button"
+          style={{
+            marginTop: "28px",
+            padding: "16px 22px",
+            border: "none",
+            borderRadius: "10px",
+            background: "#82f7c7",
+            color: "#07110d",
+            fontSize: "16px",
+            fontWeight: "bold",
+          }}
+        >
+          Find My Sound
+        </button>
       </section>
-
-      <section className="strip" id="categories">
-        <div className="shell categories">
-          <span>Built for</span>
-          {useCases.map((item) => (
-            <span className="category" key={item}>
-              {item}
-            </span>
-          ))}
-        </div>
-      </section>
-
-      <section className="method shell" id="method">
-        <div className="sectionIntro">
-          <div>
-            <p className="kicker">The foundation</p>
-            <h2>Recommendation before advertising.</h2>
-          </div>
-          <p>
-            HeadphonesBase will rank products by suitability. Affiliate
-            commission will never decide the result.
-          </p>
-        </div>
-
-        <div className="cards">
-          {foundations.map((item) => (
-            <article className="card" key={item.number}>
-              <span>{item.number}</span>
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <footer className="footer shell">
-        <div className="brand">
-          <span className="brandMark">HB</span>
-          <span>HeadphonesBase</span>
-        </div>
-        <p>Building the shortest path between a person and the right sound.</p>
-      </footer>
     </main>
   );
 }
