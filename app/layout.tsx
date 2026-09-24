@@ -1,26 +1,5 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  metadataBase: new URL("https://headphonesbase.com"),
-  title: {
-    default: "HeadphonesBase — Verified headphone comparisons",
-    template: "%s | HeadphonesBase",
-  },
-  description: "Compare source-backed headphone specifications, use cases and trade-offs without fabricated prices or stock claims.",
-  alternates: { canonical: "/" },
-  openGraph: {
-    type: "website",
-    url: "https://headphonesbase.com",
-    siteName: "HeadphonesBase",
-    title: "HeadphonesBase — Verified headphone comparisons",
-    description: "Source-backed headphone specifications, comparisons and practical buyer guides.",
-  },
-};
-
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
-    </html>
-  );
-}
+import type {Metadata} from 'next';
+import Link from 'next/link';
+import './globals.css';
+export const metadata:Metadata={metadataBase:new URL('https://headphonesbase.com'),title:{default:'HeadphonesBase — Find your next headphones',template:'%s | HeadphonesBase'},description:'Source-backed headphone profiles, practical shortlists and side-by-side comparisons.',icons:{icon:'/favicon.svg'}};
+export default function RootLayout({children}:{children:React.ReactNode}) {return <html lang="en"><body><a className="skip" href="#main">Skip to content</a><header><div className="nav-wrap"><Link href="/" className="wordmark" aria-label="HeadphonesBase home"><span className="logo-mark">◖◗</span>headphones<span>base</span></Link><nav aria-label="Main navigation"><Link href="/headphones/">Explore</Link><Link href="/compare/">Compare</Link><Link href="/best/headphones/">Best by use case</Link><Link href="/methodology/">Our method</Link></nav></div></header>{children}<footer><div><Link className="wordmark" href="/">headphones<span>base</span></Link><p>Specifications with sources. Choices with context.</p></div><nav aria-label="Footer"><Link href="/categories/">Categories</Link><Link href="/methodology/">Methodology & corrections</Link><Link href="/disclosure/">Affiliate disclosure</Link><Link href="/privacy/">Privacy</Link></nav><p className="small">Manufacturer claims are not independent listening tests. No retailer prices or stock claims are displayed without verified commercial data.</p></footer></body></html>;}

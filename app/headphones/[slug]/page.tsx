@@ -1,73 +1,18 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { getHeadphone, headphones } from "../../../lib/headphones";
-
-export function generateStaticParams() {
-  return headphones.map((item) => ({ slug: item.slug }));
-}
-
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const item = getHeadphone(slug);
-  if (!item) return {};
-  return {
-    title: `${item.brand} ${item.model} specifications & use cases | HeadphonesBase`,
-    description: `Verified ${item.brand} ${item.model} specifications, strengths, trade-offs and official source links.`,
-    alternates: { canonical: `/headphones/${item.slug}` },
-  };
-}
-
-export default async function HeadphonePage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const item = getHeadphone(slug);
-  if (!item) notFound();
-
-  const rows = [
-    ["Type", item.type],
-    ["Connection", item.connection],
-    ["Impedance", item.impedance],
-    ["Weight", item.weight],
-    ["Battery", item.battery],
-  ].filter((row) => row[1]);
-
-  return (
-    <main style={{ minHeight: "100vh", background: "#07090d", color: "#f6f8fb", fontFamily: "Arial, sans-serif", padding: "48px 24px" }}>
-      <article style={{ maxWidth: 900, margin: "0 auto" }}>
-        <Link href="/" style={{ color: "#82f7c7", textDecoration: "none" }}>← HeadphonesBase</Link>
-        <p style={{ marginTop: 40, color: "#82f7c7", textTransform: "uppercase", letterSpacing: ".14em", fontSize: 12 }}>{item.brand}</p>
-        <h1 style={{ fontSize: "clamp(42px, 7vw, 72px)", lineHeight: 1, letterSpacing: "-.04em", margin: "12px 0 18px" }}>{item.model}</h1>
-        <p style={{ color: "#aeb7c4", fontSize: 20, lineHeight: 1.5 }}>{item.type}</p>
-
-        <section style={{ marginTop: 36, border: "1px solid #252b34", borderRadius: 16, overflow: "hidden" }}>
-          {rows.map(([label, value], index) => (
-            <div key={label} style={{ display: "grid", gridTemplateColumns: "150px 1fr", gap: 18, padding: 18, borderTop: index ? "1px solid #252b34" : "none" }}>
-              <strong>{label}</strong><span style={{ color: "#c4ccd7" }}>{value}</span>
-            </div>
-          ))}
-        </section>
-
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16, marginTop: 24 }}>
-          <section style={{ background: "#0d1117", border: "1px solid #252b34", borderRadius: 16, padding: 22 }}>
-            <h2 style={{ marginTop: 0 }}>Good fit for</h2>
-            <ul>{item.bestFor.map((x) => <li key={x} style={{ margin: "9px 0", color: "#c9d0da" }}>{x}</li>)}</ul>
-          </section>
-          <section style={{ background: "#0d1117", border: "1px solid #252b34", borderRadius: 16, padding: 22 }}>
-            <h2 style={{ marginTop: 0 }}>Watch for</h2>
-            <ul>{item.watchFor.map((x) => <li key={x} style={{ margin: "9px 0", color: "#c9d0da" }}>{x}</li>)}</ul>
-          </section>
-        </div>
-
-        <section style={{ marginTop: 30, padding: 22, borderRadius: 16, background: "#10151c" }}>
-          <h2 style={{ marginTop: 0 }}>Source & freshness</h2>
-          <p style={{ color: "#b7c0cb" }}>Specifications checked: {item.checkedAt}. We link to the manufacturer rather than inventing merchant price or stock status.</p>
-          <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ color: "#82f7c7", fontWeight: 700 }}>{item.sourceLabel} ↗</a>
-        </section>
-
-        <p style={{ marginTop: 28, color: "#7f8997", fontSize: 13, lineHeight: 1.6 }}>
-          HeadphonesBase may later earn commissions from clearly marked retailer links. Manufacturer source links on this page are provided for verification and are not presented as live price or availability feeds.
-        </p>
-      </article>
-    </main>
-  );
+import Link from 'next/link';
+import {notFound} from 'next/navigation';
+import {getHeadphone,headphones,ancLabel,specLabels,tradeoffs} from '../../../lib/headphones';
+import {pageMeta,breadcrumbs,origin} from '../../../lib/seo';
+import {activeOffers} from '../../../lib/commerce';
+import JsonLd from '../../../components/JsonLd';
+import ProductCard from '../../../components/ProductCard';
+import ProductImage from '../../../components/ProductImage';
+export const dynamicParams=false;
+export function generateStaticParams(){return headphones.map(h=>({slug:h.slug}));}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const h=getHeadphone((await params).slug);return h?pageMeta(h.brand+' '+h.model+': specifications & comparison',h.brand+' '+h.model+': '+h.design+', '+h.connection+'. Source-backed specifications and practical trade-offs.','/headphones/'+h.slug+'/'):{};}
+export default async function Page({params}:{params:Promise<{slug:string}>}){
+ const h=getHeadphone((await params).slug);if(!h)notFound();
+ const related=headphones.filter(x=>x.slug!==h.slug&&x.form===h.form).map(x=>({h:x,score:x.uses.filter(u=>h.uses.includes(u)).length+(x.design===h.design?2:0)})).sort((a,b)=>b.score-a.score||a.h.model.localeCompare(b.h.model)).slice(0,3).map(x=>x.h);
+ const rows=[['Manufacturer',h.brand],['Model',h.model],['Fit',h.form],['Design',h.design],['Connection',h.connection],['Active noise cancellation',ancLabel(h.anc)],...Object.entries(specLabels).map(([key,label])=>[label,h.specs[key]||(key==='battery'&&!h.wireless?'Not applicable — passive wired':'Not verified')])];
+ const offers=activeOffers(h.slug);
+ return <main id="main" className="page"><JsonLd data={breadcrumbs([{name:'Headphones',path:'/headphones/'},{name:h.brand+' '+h.model,path:'/headphones/'+h.slug+'/'}])}/><JsonLd data={{'@context':'https://schema.org','@type':'Product',name:h.brand+' '+h.model,brand:{'@type':'Brand',name:h.brand},model:h.model,url:origin+'/headphones/'+h.slug+'/',...(h.image?{image:h.image.url.startsWith('/')?origin+h.image.url:h.image.url}:{}),description:h.form+', '+h.design+'. '+h.connection+'.',category:h.design,additionalProperty:rows.slice(2).filter(([,v])=>v!=='Not verified').map(([name,value])=>({'@type':'PropertyValue',name,value})),subjectOf:{'@type':'WebPage',url:h.sourceUrl}}}/><nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link> / <Link href="/headphones/">Headphones</Link> / <span>{h.model}</span></nav><div className="profile-hero"><div><p className="eyebrow">{h.brand} · MANUFACTURER-SOURCED PROFILE</p><h1>{h.model}</h1><p className="lead">{h.form} · {h.design} · {h.wireless?'Wireless capable':'Wired listening'}</p><div className="actions"><Link className="button primary" href={'/compare/?models='+h.slug}>Compare this model +</Link><a className="button" href={h.sourceUrl} target="_blank" rel="noopener noreferrer">Official product source ↗</a></div><div className="tags">{h.uses.map(u=><Link key={u} href={'/categories/'+u+'/'}>{u}</Link>)}</div></div><figure><ProductImage h={h} priority/><figcaption className="small">Product photography: {h.brand}. Colour and regional package may vary. {h.image&&<a href={h.image.sourceUrl} target="_blank" rel="noopener noreferrer">Image source ↗</a>}</figcaption></figure></div><div className="two-col"><section><h2>Technical profile</h2><p className="small">Manufacturer figures. Reviewed {h.checkedAt}. “Not verified” is a data gap.</p><dl className="spec-list">{rows.map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section><aside><section className="source-box"><p className="editorial">EDITORIAL GUIDANCE</p><h2>Before you choose</h2><ul>{tradeoffs(h).map(t=><li key={t}>{t}</li>)}</ul><p className="small">Use-case tags are based on documented design and intended applications. They are not a lab rating.</p></section><section className="source-box"><h2>Source & evidence</h2><p>Technical facts come from the linked {h.brand} page. These are specifications, not independent measurements.</p><a href={h.sourceUrl} target="_blank" rel="noopener noreferrer">Read the manufacturer page ↗</a><p className="small">Reviewed {h.checkedAt}. Availability, prices and regional bundles may change.</p><Link href="/methodology/">Methodology & corrections →</Link></section><section className="source-box"><h2>Retailer offers</h2>{offers.length?offers.map(o=><p key={o.id}><a href={o.url} target="_blank" rel={o.affiliate?'sponsored nofollow noopener noreferrer':'noopener noreferrer'}>{o.merchant} · {o.region}{o.affiliate?' (affiliate link)':''} ↗</a></p>):<p className="muted">No verified retailer offers are listed for this model. The official source above provides product information.</p>}<Link href="/disclosure/">Commercial disclosure →</Link></section></aside></div><section className="section"><h2>Compare similar options</h2><p className="muted">Matched by fit, enclosure and shared use cases; not ranked by sound quality.</p><div className="product-grid">{related.map(x=><div key={x.slug}><ProductCard h={x}/><p><Link href={'/compare/?models='+h.slug+','+x.slug}>Compare with {h.model} →</Link></p></div>)}</div></section></main>;
 }

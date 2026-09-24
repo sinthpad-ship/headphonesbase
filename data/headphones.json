@@ -1,0 +1,1380 @@
+[
+  {
+    "slug": "audio-technica-ath-m20x",
+    "brand": "Audio-Technica",
+    "model": "ATH-M20x",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "47 Ω",
+      "weight": "190 g (without cable)",
+      "driver": "40 mm",
+      "frequency": "15–20,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m20x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/e1188ee909ffa376b14b0d4b2feb4734/1000x1000/catalog/product/a/t/ath-m20x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m20x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m30x",
+    "brand": "Audio-Technica",
+    "model": "ATH-M30x",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "47 Ω",
+      "weight": "220 g (without cable)",
+      "driver": "40 mm",
+      "frequency": "15–22,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m30x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/40c77fda61feb6f67ba99d87a03ee0de/1000x1000/catalog/product/a/t/ath-m30x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m30x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m40x",
+    "brand": "Audio-Technica",
+    "model": "ATH-M40x",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "35 Ω",
+      "weight": "240 g (without cable)",
+      "driver": "40 mm",
+      "frequency": "15–24,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m40x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/262c88e7d0df6510fa510ebeae455254/1000x1000/catalog/product/a/t/ath-m40x_01a1x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m40x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m50x",
+    "brand": "Audio-Technica",
+    "model": "ATH-M50x",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "38 Ω",
+      "weight": "285 g (without cable)",
+      "driver": "45 mm",
+      "frequency": "15–28,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m50x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/8237ad855f92724d67dc7c6e6da25cee/1000x1000/catalog/product/a/t/ath-m50x_01a1x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m50x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m70x",
+    "brand": "Audio-Technica",
+    "model": "ATH-M70x",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "35 Ω",
+      "weight": "280 g (without cable)",
+      "driver": "45 mm",
+      "frequency": "5–40,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m70x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/0a4b2374107e6d1092b4700af5457b03/1000x1000/catalog/product/a/t/ath-m70x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m70x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-r70x",
+    "brand": "Audio-Technica",
+    "model": "ATH-R70x",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "470 Ω",
+      "weight": "210 g",
+      "driver": "45 mm",
+      "frequency": "5–40,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-r70x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/29f3767067473facfed5607d189750e8/1000x1000/catalog/product/a/t/ath-r70x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-r70x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-ad700x",
+    "brand": "Audio-Technica",
+    "model": "ATH-AD700X",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "38 Ω",
+      "weight": "265 g",
+      "driver": "53 mm",
+      "frequency": "5–30,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-ad700x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/7ebaf6b5b325e802faa7b2f29e971394/1000x1000/catalog/product/a/t/ath-ad700x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-ad700x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-ad900x",
+    "brand": "Audio-Technica",
+    "model": "ATH-AD900X",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired analogue",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "38 Ω",
+      "weight": "265 g",
+      "driver": "53 mm",
+      "frequency": "5–35,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-ad900x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/d788cbc7d1615b18f7514ea1256757ad/1000x1000/catalog/product/a/t/ath-ad900x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-ad900x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m50xbt2",
+    "brand": "Audio-Technica",
+    "model": "ATH-M50xBT2",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.0; 3.5 mm analogue",
+    "wireless": true,
+    "anc": "not-verified",
+    "uses": [
+      "wireless",
+      "calls"
+    ],
+    "specs": {
+      "impedance": "38 Ω",
+      "weight": "Approx. 307 g",
+      "driver": "45 mm",
+      "battery": "Up to 50 hours continuous playback; manufacturer claim",
+      "codecs": "LDAC, AAC, SBC"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m50xbt2",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/c28cc9105e1bc0030ed8af2dbafac6ae/1000x1000/catalog/product/a/t/ath-m50xbt2_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m50xbt2",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-m20xbt",
+    "brand": "Audio-Technica",
+    "model": "ATH-M20xBT",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.0; 3.5 mm analogue",
+    "wireless": true,
+    "anc": "not-verified",
+    "uses": [
+      "wireless",
+      "calls"
+    ],
+    "specs": {
+      "impedance": "36 Ω",
+      "weight": "Approx. 216 g",
+      "driver": "40 mm",
+      "battery": "Up to 60 hours continuous playback; manufacturer claim",
+      "codecs": "AAC, SBC"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-m20xbt",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/4a104040dab1c09fa2c49205f5dd5429/1000x1000/catalog/product/a/t/ath-m20xbt_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-m20xbt",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-600",
+    "brand": "Sennheiser",
+    "model": "HD 600",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 6.3 mm / 3.5 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "260 g",
+      "frequency": "12–40,500 Hz",
+      "impedance": "300 Ω"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/hd_600_product_shot_iso_v1.png?v=1755694756",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-650",
+    "brand": "Sennheiser",
+    "model": "HD 650",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 6.3 mm / 3.5 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "260 g",
+      "frequency": "10–41,000 Hz",
+      "impedance": "300 Ω"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-650",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_HD_650_Sennheiser_01.jpg?v=1755694751",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-650",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-660s2",
+    "brand": "Sennheiser",
+    "model": "HD 660S2",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 6.3 mm; balanced 4.4 mm; 3.5 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "260 g",
+      "frequency": "8–41,500 Hz",
+      "impedance": "300 Ω"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-660s2",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/660S2.1.png?v=1755694722",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-660s2",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-560s",
+    "brand": "Sennheiser",
+    "model": "HD 560S",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "280 g",
+      "frequency": "6–38,000 Hz"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-560s",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_HD_560S_sennheiser_01_776884e5-6c12-4dc0-a472-4047b6f6deb3.jpg?v=1755694757",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-560s",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-599",
+    "brand": "Sennheiser",
+    "model": "HD 599",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm; 6.3 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "250 g",
+      "frequency": "12–38,500 Hz",
+      "impedance": "50 Ω"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-599",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_HD_599_Sennheiser_01_a50907c8-900e-482a-ad1b-1c0c5f6810e1.jpg?v=1755694746",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-599",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-hd-800-s",
+    "brand": "Sennheiser",
+    "model": "HD 800 S",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 6.35 mm; balanced 4.4 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "weight": "330 g",
+      "frequency": "4–51,000 Hz",
+      "impedance": "300 Ω"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-800-s",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_Sennheiser_HD-800-S_Over-Ear_02.jpg?v=1755694748",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-800-s",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-momentum-4-wireless",
+    "brand": "Sennheiser",
+    "model": "MOMENTUM 4 Wireless",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.2",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "driver": "42 mm",
+      "codecs": "SBC, AAC, aptX, aptX Adaptive"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/momentum-4-wireless",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/momentum_4_isofront_v1.jpg?v=1755694731",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/momentum-4-wireless",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-accentum-wireless",
+    "brand": "Sennheiser",
+    "model": "ACCENTUM Wireless",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.2",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "driver": "37 mm",
+      "codecs": "SBC, AAC, aptX, aptX HD",
+      "weight": "222 g",
+      "battery": "Up to 50 hours Bluetooth with ANC; iPhone at medium volume (manufacturer test)"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/accentum-wireless",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/accentum4.jpg?v=1755694715",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/accentum-wireless",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-accentum-plus-wireless",
+    "brand": "Sennheiser",
+    "model": "ACCENTUM Plus Wireless",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.2",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "driver": "37 mm",
+      "codecs": "SBC, AAC, aptX, aptX Adaptive",
+      "weight": "227 g",
+      "battery": "Up to 50 hours Bluetooth with ANC; iPhone at medium volume (manufacturer test)"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/accentum-plus-wireless",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/ACCENTUM_PLUS__Better__Product_Images_4.jpg?v=1755694712",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/accentum-plus-wireless",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-770-pro-x",
+    "brand": "beyerdynamic",
+    "model": "DT 770 PRO X",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.3 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "frequency": "5–40,000 Hz",
+      "weight": "305 g without cable"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-770-pro-x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-770-pro-x-beyerdynamic-perspective.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-770-pro-x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-990-pro-x",
+    "brand": "beyerdynamic",
+    "model": "DT 990 PRO X",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.3 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "frequency": "5–40,000 Hz",
+      "weight": "292 g without cable"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-990-pro-x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-990-pro-x-beyerdynamic-perspective.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-990-pro-x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-700-pro-x",
+    "brand": "beyerdynamic",
+    "model": "DT 700 PRO X",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.35 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "frequency": "5–40,000 Hz",
+      "weight": "350 g without cable"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-700-pro-x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-700-pro-x-beyerdynamic-perspective_transparent_2_1.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-700-pro-x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-900-pro-x",
+    "brand": "beyerdynamic",
+    "model": "DT 900 PRO X",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.35 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "frequency": "5–40,000 Hz",
+      "weight": "345 g without cable"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-900-pro-x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-900-pro-x-perspective_transparent.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-900-pro-x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-770-pro",
+    "brand": "beyerdynamic",
+    "model": "DT 770 PRO",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.35 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording"
+    ],
+    "specs": {
+      "impedance": "32 / 80 / 250 (separate variants) Ω",
+      "frequency": "5–35,000 Hz"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-770-pro",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-770-pro-80-ohm-headphones-beyerdynamic-perspective_transparent.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-770-pro",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-990-pro",
+    "brand": "beyerdynamic",
+    "model": "DT 990 PRO",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.35 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "80 / 250 (separate variants) Ω",
+      "frequency": "5–35,000 Hz"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-990-pro",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-990-pro-black-edition-headphones-beyerdynamic-perspective_transparent.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-990-pro",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sony-wh-1000xm6",
+    "brand": "Sony",
+    "model": "WH-1000XM6",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.3; analogue stereo mini jack",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "battery": "Up to 30 h ANC on / 40 h ANC off; manufacturer claim",
+      "codecs": "SBC, AAC, LDAC, LC3"
+    },
+    "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm6/specifications",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://sony.scene7.com/is/image/sonyglobalsolutions/GGB-8071_Olive_Gray_Gallery-1?%24originalDimensions%24=",
+      "sourceUrl": "https://www.sony.co.uk/headphones/products/wh-1000xm6",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sony-wh-1000xm5",
+    "brand": "Sony",
+    "model": "WH-1000XM5",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.2; analogue stereo mini jack",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "battery": "Up to 30 h ANC on / 40 h ANC off; manufacturer claim",
+      "codecs": "SBC, AAC, LDAC"
+    },
+    "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm5/specifications",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.sony.co.uk/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=640&hei=480",
+      "sourceUrl": "https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm5",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sony-wh-1000xm4",
+    "brand": "Sony",
+    "model": "WH-1000XM4",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.0; analogue stereo mini jack",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "battery": "Up to 30 h ANC on / 38 h ANC off; manufacturer claim",
+      "codecs": "SBC, AAC, LDAC"
+    },
+    "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm4/specifications",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.sony.com/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&resMode=bisharp&wid=640",
+      "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm4",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sony-wh-ch720n",
+    "brand": "Sony",
+    "model": "WH-CH720N",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.2; analogue stereo mini jack",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "battery": "Up to 35 h ANC on / 50 h ANC off; manufacturer claim",
+      "codecs": "SBC, AAC"
+    },
+    "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-ch720n/specifications",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://sony.scene7.com/is/image/sonyglobalsolutions/WH-CH720N_Stay_Comfortable_M?%24largeImageMobile%24=&fmt=png-alpha",
+      "sourceUrl": "https://www.sony.co.uk/headphones/products/wh-ch720n",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sony-wf-c510",
+    "brand": "Sony",
+    "model": "WF-C510",
+    "design": "closed-back",
+    "form": "in-ear",
+    "connection": "Bluetooth 5.3",
+    "wireless": true,
+    "anc": "not-verified",
+    "uses": [
+      "wireless",
+      "calls"
+    ],
+    "specs": {
+      "driver": "6 mm",
+      "battery": "Up to 8 h ambient sound on / 11 h off; earbuds only; manufacturer claim",
+      "codecs": "SBC, AAC",
+      "waterResistance": "IPX4 (earbuds)"
+    },
+    "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wf-c510/specifications",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://sony.scene7.com/is/image/sonyglobalsolutions/00-29?%24large360ViewerImage%24=",
+      "sourceUrl": "https://www.sony.co.uk/headphones/products/wf-c510",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "bose-quietcomfort-ultra-headphones-2nd-gen",
+    "brand": "Bose",
+    "model": "QuietComfort Ultra Headphones (2nd Gen)",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth 5.4; USB-C audio; analogue audio cable",
+    "wireless": true,
+    "anc": "yes",
+    "uses": [
+      "wireless",
+      "travel",
+      "commuting",
+      "calls"
+    ],
+    "specs": {
+      "battery": "Up to 30 hours; 23 hours with Immersive Audio (manufacturer claim)",
+      "usbAudio": "16-bit, 44.1 or 48 kHz"
+    },
+    "sourceUrl": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://assets.bosecreative.com/transform/69de3d90-3cc5-4f7c-ac71-d03a030e4154/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal1_Silo_1500x1120?format=avif&quality=95&io=width:816,height:667,transform:fit",
+      "sourceUrl": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "akg-k371",
+    "brand": "AKG",
+    "model": "K371",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable analogue cables",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "driver": "50 mm",
+      "impedance": "32 Ω",
+      "weight": "255 g",
+      "frequency": "5–40,000 Hz"
+    },
+    "sourceUrl": "https://www.akg.com/K371.html",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.akg.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw19da756a/AKG_K371-Hero-shot-02_1605x1605.png?sh=535&sw=535",
+      "sourceUrl": "https://www.akg.com/K371.html",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "akg-k712-pro",
+    "brand": "AKG",
+    "model": "K712 PRO",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "62 Ω",
+      "weight": "235 g",
+      "frequency": "10–39,800 Hz"
+    },
+    "sourceUrl": "https://www.akg.com/K712PRO.html",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.akg.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0c8e62f6/AKG_k712Pro_6.png?sh=535&sw=535",
+      "sourceUrl": "https://www.akg.com/K712PRO.html",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "shure-srh1540",
+    "brand": "Shure",
+    "model": "SRH1540",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable MMCX cables; 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "driver": "40 mm",
+      "cable": "Two detachable cables included"
+    },
+    "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh1540",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://products.shureweb.eu/shure_product_db/product_main_images/files/cca/17c/1d-/setcard/60f2412037a8d80079664ea0832690a1.jpeg",
+      "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh1540",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "shure-srh1840",
+    "brand": "Shure",
+    "model": "SRH1840",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable MMCX cables; 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "driver": "40 mm",
+      "cable": "Two detachable cables included"
+    },
+    "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh1840",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://products.shureweb.eu/shure_product_db/product_main_images/files/42b/328/b3-/setcard/9846d721331f0d9f0d11c4b8c23d608e.jpeg",
+      "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh1840",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-mmx-150-wireless",
+    "brand": "beyerdynamic",
+    "model": "MMX 150 wireless",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Bluetooth; wired audio",
+    "wireless": true,
+    "anc": "not-verified",
+    "uses": [
+      "gaming",
+      "calls",
+      "wireless"
+    ],
+    "specs": {
+      "weight": "336 g without cable",
+      "battery": "Up to 50 hours (manufacturer claim)",
+      "frequency": "20–20,000 Hz",
+      "microphone": "Detachable META VOICE microphone"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/mmx-150-wireless",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/m/m/mmx-150-wireless_black_beyerdynamic_perspective_transparent.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/mmx-150-wireless",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-mmx-300-pro",
+    "brand": "beyerdynamic",
+    "model": "MMX 300 PRO",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; dual 3.5 mm jacks; console adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "gaming",
+      "calls"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "weight": "314 g without cable",
+      "frequency": "5–40,000 Hz",
+      "microphone": "Cardioid condenser"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/mmx-300-pro",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/m/m/mmx-300-pro-gaming-headset-beyerdynamic-perspective_transparent.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/mmx-300-pro",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "shure-srh840a",
+    "brand": "Shure",
+    "model": "SRH840A",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable cable; 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording"
+    ],
+    "specs": {
+      "driver": "40 mm dynamic",
+      "cable": "Detachable straight cable"
+    },
+    "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh840",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://products.shureweb.eu/shure_product_db/product_main_images/files/ac7/0ac/2a-/setcard/868cc63ea8a2dba0a94c8e718fb5ee05.jpeg",
+      "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh840",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "shure-srh440a",
+    "brand": "Shure",
+    "model": "SRH440A",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable cable; 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording"
+    ],
+    "specs": {
+      "driver": "40 mm dynamic",
+      "cable": "Detachable straight cable"
+    },
+    "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh440",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://products.shureweb.eu/shure_product_db/product_main_images/files/9d3/cc6/f4-/setcard/4e626c0c3a34e538381c7c86363940b1.jpeg",
+      "sourceUrl": "https://www.shure.com/en-US/products/headphones/srh440",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-r50x",
+    "brand": "Audio-Technica",
+    "model": "ATH-R50x",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "50 Ω",
+      "weight": "207 g",
+      "driver": "45 mm",
+      "frequency": "5–40,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-r50x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/a6067a4901163593bc5915b3534ac0e9/1000x1000/catalog/product/a/t/ath-r50x_01_11x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-r50x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-r70xa",
+    "brand": "Audio-Technica",
+    "model": "ATH-R70xa",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "470 Ω",
+      "weight": "199 g",
+      "driver": "45 mm",
+      "frequency": "5–40,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-r70xa",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/43c3993d8c9ca37bd575d8c42031eec5/1000x1000/catalog/product/a/t/ath-r70xa_01_a1x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-r70xa",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-a990z",
+    "brand": "Audio-Technica",
+    "model": "ATH-A990Z",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "44 Ω",
+      "weight": "335 g",
+      "driver": "53 mm",
+      "frequency": "5–42,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-a990z",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/eb89959d0d413a7fd8399be6c2c92e67/1000x1000/catalog/product/a/t/ath-a990z_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-a990z",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "audio-technica-ath-ad500x",
+    "brand": "Audio-Technica",
+    "model": "ATH-AD500X",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "weight": "235 g",
+      "driver": "53 mm",
+      "frequency": "5–25,000 Hz"
+    },
+    "sourceUrl": "https://www.audio-technica.com/en/ath-ad500x",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.audio-technica.com/media/converted/resized/476dcf238820fb0570c6bd83fe1186a9/1000x1000/catalog/product/a/t/ath-ad500x_011x.webp",
+      "sourceUrl": "https://www.audio-technica.com/en/ath-ad500x",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-ie-200",
+    "brand": "Sennheiser",
+    "model": "IE 200",
+    "design": "closed-back",
+    "form": "in-ear",
+    "connection": "Wired; 3.5 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "16 Ω without cable / 18 Ω with cable",
+      "frequency": "6–20,000 Hz"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-200",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/IE_200_MAIN.jpg?v=1755694724",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-200",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-ie-600",
+    "brand": "Sennheiser",
+    "model": "IE 600",
+    "design": "closed-back",
+    "form": "in-ear",
+    "connection": "Wired; 3.5 mm; balanced 4.4 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "18 Ω system impedance",
+      "frequency": "4–46,500 Hz"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-600",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/ie_600_product_shot_1_final.png?v=1755694736",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-600",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "sennheiser-ie-900",
+    "brand": "Sennheiser",
+    "model": "IE 900",
+    "design": "closed-back",
+    "form": "in-ear",
+    "connection": "Wired; 3.5 mm; balanced 2.5 mm and 4.4 mm",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "16 Ω",
+      "frequency": "5–48,000 Hz"
+    },
+    "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-900",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/ie_900_product_shot_final_04.jpg?v=1755694744",
+      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/ie-900",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "akg-k361",
+    "brand": "AKG",
+    "model": "K361",
+    "design": "closed-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable analogue cables",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "recording",
+      "mixing"
+    ],
+    "specs": {
+      "driver": "50 mm",
+      "impedance": "32 Ω",
+      "weight": "219 g",
+      "frequency": "15–28,000 Hz"
+    },
+    "sourceUrl": "https://www.akg.com/K361.html",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.akg.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw10decfb5/AKG_K361_ProductPhoto_TECWinner_1605x1605.png?sh=535&sw=535",
+      "sourceUrl": "https://www.akg.com/K361.html",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "akg-k702",
+    "brand": "AKG",
+    "model": "K702",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; detachable mini-XLR; 3.5 mm / 6.3 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "driver": "45 mm",
+      "impedance": "62 Ω",
+      "weight": "235 g",
+      "frequency": "10–39,800 Hz"
+    },
+    "sourceUrl": "https://www.akg.com/K702.html",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://www.akg.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw6411e565/AKG_k702.png?sh=535&sw=535",
+      "sourceUrl": "https://www.akg.com/K702.html",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-mmx-330-pro",
+    "brand": "beyerdynamic",
+    "model": "MMX 330 PRO",
+    "design": "open-back",
+    "form": "over-ear",
+    "connection": "Wired; dual 3.5 mm jacks; console adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "gaming",
+      "calls"
+    ],
+    "specs": {
+      "impedance": "48 Ω",
+      "weight": "318 g without cable",
+      "frequency": "5–40,000 Hz",
+      "microphone": "Cardioid condenser"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/mmx-330-pro",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/m/m/mmx-330-pro-beyerdynamic-perspective_transparent_2.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/mmx-330-pro",
+      "checkedAt": "2026-09-17"
+    }
+  },
+  {
+    "slug": "beyerdynamic-dt-880-pro",
+    "brand": "beyerdynamic",
+    "model": "DT 880 PRO",
+    "design": "semi-open",
+    "form": "over-ear",
+    "connection": "Wired; coiled cable; 3.5 mm / 6.35 mm adapter",
+    "wireless": false,
+    "anc": "not-applicable",
+    "uses": [
+      "studio",
+      "mixing",
+      "audiophile"
+    ],
+    "specs": {
+      "impedance": "250 Ω",
+      "weight": "295 g without cable",
+      "frequency": "5–35,000 Hz"
+    },
+    "sourceUrl": "https://global.beyerdynamic.com/p/dt-880-pro",
+    "checkedAt": "2026-09-16",
+    "verification": "manufacturer-page",
+    "image": {
+      "url": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-880-pro-perspective_transparent-3.png?store=www_en&image-type=image",
+      "sourceUrl": "https://global.beyerdynamic.com/p/dt-880-pro",
+      "checkedAt": "2026-09-17"
+    }
+  }
+]

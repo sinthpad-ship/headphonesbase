@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main id="main" className="container section"><h1>Headphones not found</h1><p>This page may have moved. Explore the catalogue to find a model.</p><Link className="button" href="/headphones/">Browse headphones</Link></main>}

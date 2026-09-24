@@ -1,0 +1,4 @@
+import ProductImage from './ProductImage';
+import Link from 'next/link';
+import {Headphone} from '../lib/headphones';
+export default function ProductCard({h}:{h:Headphone}) {return <article className="product-card"><div className="card-top"><span className="eyebrow">{h.brand}</span><span className="badge">{h.wireless?'Wireless':'Wired'}</span></div><ProductImage h={h}/><h3><Link prefetch={false} href={`/headphones/${h.slug}/`}>{h.model}</Link></h3><p className="muted">{h.form} · {h.design}</p><p className="spec-preview">{h.specs.impedance || h.specs.driver || h.specs.codecs || 'Manufacturer specifications'}</p><div className="tags">{h.uses.slice(0,3).map(u=><Link prefetch={false} key={u} href={`/categories/${u}/`}>{u}</Link>)}</div><div className="card-actions"><Link prefetch={false} href={`/headphones/${h.slug}/`}>Profile ↗</Link><Link prefetch={false} href={`/compare/?models=${h.slug}`}>Compare +</Link></div></article>;}

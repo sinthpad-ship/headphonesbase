@@ -1,60 +1,7 @@
-"use client";
-
-import Link from "next/link";
-import { useMemo, useState } from "react";
-import { headphones } from "../lib/headphones";
-
-export default function Home() {
-  const [query, setQuery] = useState("");
-  const [useCase, setUseCase] = useState("All");
-  const useCases = ["All", ...Array.from(new Set(headphones.flatMap((item) => item.bestFor)))];
-  const filtered = useMemo(() => headphones.filter((item) => {
-    const q = query.trim().toLowerCase();
-    const matchesText = !q || `${item.brand} ${item.model} ${item.type} ${item.connection} ${item.bestFor.join(" ")}`.toLowerCase().includes(q);
-    const matchesUse = useCase === "All" || item.bestFor.includes(useCase);
-    return matchesText && matchesUse;
-  }), [query, useCase]);
-
-  return (
-    <main style={{ minHeight: "100vh", background: "#07090d", color: "#f6f8fb", fontFamily: "Arial, sans-serif" }}>
-      <section style={{ maxWidth: 1120, margin: "0 auto", padding: "72px 24px 40px" }}>
-        <p style={{ color: "#82f7c7", textTransform: "uppercase", letterSpacing: ".18em", fontSize: 12 }}>Independent headphone intelligence</p>
-        <h1 style={{ fontSize: "clamp(44px, 7vw, 82px)", lineHeight: .98, letterSpacing: "-.05em", margin: "20px 0" }}>Find headphones by use case, not hype.</h1>
-        <p style={{ maxWidth: 760, color: "#bec6d2", fontSize: 20, lineHeight: 1.6 }}>HeadphonesBase turns manufacturer specifications into a clear comparison layer for travel, studio work and everyday listening. We do not publish invented prices or availability.</p>
-        <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-          <Link href="#catalog" style={{ padding: "14px 18px", borderRadius: 10, background: "#82f7c7", color: "#07110d", fontWeight: 700, textDecoration: "none" }}>Browse verified models</Link>
-          <Link href="/compare" style={{ padding: "14px 18px", borderRadius: 10, border: "1px solid #303640", color: "#f6f8fb", textDecoration: "none" }}>Compare models</Link>
-          <Link href="/best/headphones" style={{ padding: "14px 18px", borderRadius: 10, border: "1px solid #303640", color: "#f6f8fb", textDecoration: "none" }}>Best by use case</Link>
-        </div>
-      </section>
-
-      <section id="catalog" style={{ maxWidth: 1120, margin: "0 auto", padding: "24px 24px 72px" }}>
-        <h2 style={{ fontSize: 32, marginBottom: 8 }}>Verified catalog</h2>
-        <p style={{ margin: "0 0 20px", color: "#9ea8b7" }}>Every listed specification links back to an official manufacturer source.</p>
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(220px, 2fr) minmax(180px, 1fr)", gap: 12, marginBottom: 14 }}>
-          <input aria-label="Search headphones" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search brand, model, type or use case…" style={{ width: "100%", boxSizing: "border-box", padding: 14, borderRadius: 10, border: "1px solid #303640", background: "#0d1117", color: "#f6f8fb", fontSize: 16 }} />
-          <select aria-label="Filter by use case" value={useCase} onChange={(e) => setUseCase(e.target.value)} style={{ width: "100%", padding: 14, borderRadius: 10, border: "1px solid #303640", background: "#0d1117", color: "#f6f8fb", fontSize: 16 }}>
-            {useCases.map((value) => <option key={value} value={value}>{value === "All" ? "All use cases" : value}</option>)}
-          </select>
-        </div>
-        <p style={{ color: "#7f8997", fontSize: 13, marginBottom: 20 }}>{filtered.length} of {headphones.length} verified models shown</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 16 }}>
-          {filtered.map((item) => (
-            <article key={item.slug} style={{ border: "1px solid #252b34", background: "#0d1117", borderRadius: 16, padding: 22 }}>
-              <p style={{ margin: 0, color: "#82f7c7", fontSize: 13 }}>{item.brand}</p>
-              <h3 style={{ fontSize: 24, margin: "8px 0 10px" }}>{item.model}</h3>
-              <p style={{ color: "#aeb7c4", lineHeight: 1.5 }}>{item.type}</p>
-              <p style={{ color: "#d5dbe4", fontSize: 14 }}><strong>Best for:</strong> {item.bestFor.join(" · ")}</p>
-              <Link href={"/headphones/" + item.slug} style={{ display: "inline-block", marginTop: 10, color: "#82f7c7", fontWeight: 700, textDecoration: "none" }}>View verified profile →</Link>
-            </article>
-          ))}
-          {filtered.length === 0 && <p style={{ color: "#aeb7c4" }}>No verified models match these filters yet.</p>}
-        </div>
-      </section>
-
-      <section style={{ borderTop: "1px solid #20262e", padding: "28px 24px 48px" }}>
-        <div style={{ maxWidth: 1120, margin: "0 auto", color: "#87919e", lineHeight: 1.6, fontSize: 14 }}><strong style={{ color: "#d9dee6" }}>Commercial disclosure:</strong> HeadphonesBase can earn commissions from clearly marked retailer links once approved affiliate URLs are configured. Editorial/specification data remains separate from merchant price and availability claims.</div>
-      </section>
-    </main>
-  );
-}
+import Link from 'next/link';
+import {headphones} from '../lib/headphones';
+import {useCases} from '../lib/categories';
+import Catalog from '../components/Catalog';
+import {pageMeta} from '../lib/seo';
+export const metadata=pageMeta('Find headphones for the way you listen','Explore 50 source-backed headphone profiles. Filter by use case, brand, design and ANC, then compare your shortlist.','/');
+export default function Home(){return <main id="main"><section className="hero"><div className="eyebrow">THE HEADPHONE FIELD GUIDE</div><h1>Your sound.<br/><span>Your shortlist.</span></h1><p className="lead">From the recording room to the morning train. Find headphones that fit how you listen, with specifications you can trace to the source.</p><div className="actions"><a className="button primary" href="#catalog">Explore {headphones.length} models ↓</a><Link className="button" href="/compare/">Build a comparison ↗</Link></div><div className="hero-stats"><div><strong>{headphones.length}</strong><span>source-backed models</span></div><div><strong>{new Set(headphones.map(h=>h.brand)).size}</strong><span>manufacturers</span></div><div><strong>0</strong><span>invented ratings</span></div></div></section><section className="section"><div className="section-heading"><div><p className="eyebrow">START WITH YOUR DAY</p><h2>What are you listening for?</h2></div><Link href="/categories/">All categories ↗</Link></div><div className="use-grid">{useCases.map((u,i)=><Link key={u.slug} href={`/best/${u.slug}/`}><span className="index">0{i+1}</span><strong>{u.name}</strong><span>Explore the shortlist ↗</span></Link>)}</div></section><section id="catalog" className="section"><div className="section-heading"><div><p className="eyebrow">THE CATALOGUE</p><h2>Find your next pair.</h2></div><Link href="/methodology/">How we verify →</Link></div><p className="muted">Official sources reviewed 16 September 2026. Use-case tags are editorial guidance; missing specifications stay unverified.</p><Catalog items={headphones}/></section><section className="section trust"><h2>A specification is a starting point.</h2><p>We show what manufacturers document, explain the practical trade-offs and let you compare. We do not turn a frequency range into a sound-quality score or claim hands-on tests we have not performed.</p><Link href="/methodology/">Read our evidence standard ↗</Link></section></main>;}

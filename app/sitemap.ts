@@ -1,19 +1,2 @@
-import type { MetadataRoute } from "next";
-import { headphones } from "../lib/headphones";
-
-export const dynamic = "force-static";
-
-export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://headphonesbase.com";
-  return [
-    { url: base, changeFrequency: "weekly", priority: 1 },
-    { url: `${base}/categories`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${base}/compare`, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${base}/best/headphones`, changeFrequency: "weekly", priority: 0.9 },
-    ...headphones.map((item) => ({
-      url: `${base}/headphones/${item.slug}`,
-      changeFrequency: "monthly" as const,
-      priority: 0.75,
-    })),
-  ];
-}
+export const dynamic='force-static';
+import type {MetadataRoute} from 'next';import {headphones} from '../lib/headphones';import {categories,useCases} from '../lib/categories';import {origin} from '../lib/seo';export default function sitemap():MetadataRoute.Sitemap{return [...['/','/headphones/','/compare/','/categories/','/best/headphones/','/methodology/','/disclosure/','/privacy/'],...headphones.map(h=>`/headphones/${h.slug}/`),...categories.map(c=>`/categories/${c.slug}/`),...useCases.map(c=>`/best/${c.slug}/`)].map(path=>({url:origin+path}))}
