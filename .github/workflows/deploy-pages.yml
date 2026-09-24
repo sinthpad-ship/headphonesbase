@@ -27,10 +27,12 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build static export
         run: npm run build
+      - name: Validate exported routes and data
+        run: npm run validate
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

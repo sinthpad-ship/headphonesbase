@@ -18,8 +18,14 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: package.json
+          cache-dependency-path: package-lock.json
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
+      - name: Validate exported routes and data
+        run: npm run validate
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Desktop and mobile journeys
+        run: npx playwright test
