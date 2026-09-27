@@ -30,5 +30,33 @@ for f in root.rglob('index.html'):
   assert dest.is_file() or (dest/'index.html').is_file(),(f,link)
  for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s):json.loads(block)
  count+=1
-assert len(re.findall('<loc>',(root/'sitemap.xml').read_text()))==80
+import xml.etree.ElementTree as ET
+urls=[n.text for n in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+assert len(urls)==len(set(urls))==count,(len(urls),count)
+for url in urls:assert (root/urlsplit(url).path.lstrip('/')/'index.html').is_file(),url
+manifest=json.load(open(root/'data/v1/manifest.json'))
+assert manifest['counts']['models']==len(data)
+graph=json.load(open(root/'data/v1/graph.json'));ids={x['id'] for x in graph['entities']}
+assert len(ids)==len(graph['entities'])
+for edge in graph['relationships']:
+ assert edge['subject'] in ids and edge['object'] in ids and edge['sources'],edge
+for record in json.load(open(root/'data/v1/headphones.json'))['records']:
+ assert json.load(open(root/'data/v1/models'/f"{record['slug']}.json"))==record
+ for field in record['fields'].values():
+  assert field['status'] in ['documented','unknown','not-published','not-applicable','conflicting']
+  if field['status']=='documented':assert field['value'] is not None and field['sources']
+  else:assert field['value'] is None
+for collection in ['history','technology']:
+ records=json.load(open('data/'+collection+'.json'))
+ assert len({x['id'] for x in records})==len(records)
+ for record in records:
+  assert record['sources']
+  assert (root/collection/record['slug']/'index.html').is_file()
+  for src in record['sources']:assert src['url'].startswith('https://') and src['verifiedAt']
+# No uncleared source photographs may leak into HTML or Product markup.
+for h in data:
+ if h.get('image',{}).get('rightsStatus')!='cleared':
+  html=(root/'headphones'/h['slug']/'index.html').read_text()
+  assert not re.search(r'<img[^>]+alt="'+re.escape(h['brand']+' '+h['model']),html)
+print(f'Validated {len(urls)} sitemap URLs, graph integrity and JSON snapshot contracts.')
 print(f'Validated {len(data)} models, {count} HTML routes, internal links, metadata, skip targets and JSON-LD.')

@@ -1,0 +1,4 @@
+import Timeline from '../../components/Timeline';
+import {pageMeta} from '../../lib/seo';
+export const metadata=pageMeta('History of headphones','Explore a source-backed timeline from telephone receivers to stereo, portable listening and wireless audio.','/history/');
+export default function Page(){return <main id="main" className="page"><p className="eyebrow">The listening archive</p><h1>Before the playlist,<br/>there was a receiver.</h1><p className="lead">Headphones have a history of overlapping inventions. Follow documented devices and standards, with the evidence and uncertainty kept in view.</p><div className="notice">A growing timeline, not a complete history. Earlier and later entries are chronological neighbours, not proven causal predecessors. Telephony, radio, stereo and wireless standards tell different parts of the story.</div><Timeline/></main>}

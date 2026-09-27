@@ -14,5 +14,7 @@ export const categories = [...useCases.map(({slug,name,intro})=>({slug,name,intr
  {slug:'open-back',name:'Open-back',intro:'Open enclosures for quieter listening spaces.'},
  {slug:'closed-back',name:'Closed-back',intro:'Enclosed designs for monitoring and everyday listening.'},
  {slug:'in-ear',name:'In-ear',intro:'Compact earphones where tip fit is part of the sound.'},
+ {slug:'planar-magnetic',name:'Planar magnetic',intro:'Models with planar magnetic drivers explicitly documented by the manufacturer.'},
+ {slug:'anc',name:'Active noise cancellation',intro:'Models with documented active noise cancellation; no attenuation ranking is implied.'},
  {slug:'wired',name:'Wired',intro:'Passive analogue headphones and headsets without a playback battery.'}];
-export function inCategory(h: Headphone, slug: string) {return slug === 'wired' ? !h.wireless : slug === 'in-ear' ? h.form === slug : ['open-back','closed-back'].includes(slug) ? h.design === slug : h.uses.includes(slug);}
+export function inCategory(h: Headphone, slug: string) {return slug === 'planar-magnetic' ? h.specs.driverTechnology==='planar-magnetic' : slug === 'anc' ? h.anc==='yes' : slug === 'wired' ? !h.wireless : slug === 'in-ear' ? h.form === slug : ['open-back','closed-back'].includes(slug) ? h.design === slug : h.uses.includes(slug);}

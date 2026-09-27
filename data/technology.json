@@ -1,0 +1,120 @@
+[
+  {
+    "id": "technology:planar-magnetic",
+    "slug": "planar-magnetic",
+    "title": "Planar magnetic drivers",
+    "summary": "A thin diaphragm carries conductors within a magnetic field.",
+    "explanation": "Current in the diaphragm’s conductors interacts with the magnetic field to move the sound-producing surface. Audeze describes distributing driving force across the diaphragm.",
+    "decision": "Compare the actual model’s sensitivity, impedance, weight and documented power requirements. Driver technology is one selection criterion.",
+    "limitations": "A manufacturer’s claimed superiority is not an independent result. Planar construction does not by itself establish better sound.",
+    "sources": [
+      {
+        "url": "https://www.audeze.com/blogs/technology-and-innovation/planar-magnetic-technology",
+        "title": "Audeze: planar magnetic technology",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "match": {
+      "driverTechnology": "planar-magnetic"
+    }
+  },
+  {
+    "id": "technology:dynamic-driver",
+    "slug": "dynamic-driver",
+    "title": "Dynamic drivers",
+    "summary": "A voice coil drives a diaphragm in a magnetic field.",
+    "explanation": "An electrical audio signal passes through the coil attached to the diaphragm; the resulting motion creates sound.",
+    "decision": "Use model-specific measurements and compatibility information when available. A driver family alone does not predict tuning or comfort.",
+    "limitations": "The cited manufacturer contrasts its own planar technology with dynamic designs. We use the mechanism explanation, not its competitive sound-quality claims.",
+    "sources": [
+      {
+        "url": "https://www.audeze.com/blogs/technology-and-innovation/planar-magnetic-technology",
+        "title": "Audeze: dynamic and planar mechanisms",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "match": {
+      "driverTechnology": "dynamic"
+    }
+  },
+  {
+    "id": "technology:open-back",
+    "slug": "open-back",
+    "title": "Open-back headphones",
+    "summary": "An enclosure design, distinct from the driver technology.",
+    "explanation": "Open-back headphones have an acoustically open rear enclosure. Sennheiser’s HD 414 is a documented 1968 milestone in this design history.",
+    "decision": "Editorial guidance: consider a quiet listening room and check sound leakage before using headphones near a recording microphone.",
+    "limitations": "Open-back does not mean planar, and it does not establish a particular frequency response or a universal sound-quality advantage.",
+    "sources": [
+      {
+        "url": "https://newsroom.sennheiser.com/our-history-296431",
+        "title": "Sennheiser: Our history",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "match": {
+      "design": "open-back"
+    }
+  },
+  {
+    "id": "technology:active-noise-cancellation",
+    "slug": "active-noise-cancellation",
+    "title": "Active noise cancellation",
+    "summary": "Microphones and electronics generate a signal that reduces unwanted sound.",
+    "explanation": "Bose describes sensing surrounding noise and producing an opposing signal. This active process differs from a physical seal that passively attenuates sound.",
+    "decision": "Editorial guidance: confirm ANC explicitly in the model specification. Check fit and the manufacturer’s battery conditions before choosing for travel.",
+    "limitations": "An ANC label does not quantify attenuation or establish hearing protection. A microphone used for calls alone is not proof of ANC.",
+    "sources": [
+      {
+        "url": "https://www.bose.com/stories/what-is-active-noise-cancellation",
+        "title": "Bose: what is active noise cancellation",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "match": {
+      "anc": "yes"
+    }
+  },
+  {
+    "id": "technology:bluetooth-le-audio",
+    "slug": "bluetooth-le-audio",
+    "title": "Bluetooth LE Audio",
+    "summary": "A Bluetooth Low Energy audio architecture, not a synonym for all Bluetooth audio.",
+    "explanation": "Bluetooth SIG’s LE Audio suite includes LC3 and multi-stream audio. It builds on core capabilities introduced with Bluetooth 5.2.",
+    "decision": "Check explicit support on both the source and the headphones, including software requirements.",
+    "limitations": "A Bluetooth 5.2 or later label is insufficient evidence of LE Audio support. No catalogue model is automatically tagged from its version number.",
+    "sources": [
+      {
+        "url": "https://www.bluetooth.com/press/completion-le-audio/",
+        "title": "Bluetooth SIG: completion of LE Audio specifications",
+        "type": "standards-body",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      },
+      {
+        "url": "https://www.bluetooth.com/media/le-audio/le-audio-faqs/",
+        "title": "Bluetooth SIG: LE Audio FAQ",
+        "type": "standards-body",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "match": {
+      "feature": "le-audio"
+    }
+  }
+]
