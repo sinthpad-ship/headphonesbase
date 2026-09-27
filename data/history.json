@@ -1,0 +1,203 @@
+[
+  {
+    "id": "history:mercadier-bi-telephone",
+    "slug": "mercadier-bi-telephone",
+    "title": "Two ears, hands free: Mercadier’s bi-telephone",
+    "date": "1891-06-16",
+    "sortYear": 1891,
+    "era": "Communication",
+    "people": [
+      "Ernest Jules Pierre Mercadier"
+    ],
+    "organizations": [],
+    "device": "Bi-telephone, US454138A",
+    "summary": "An 1891 patent documents paired ear receivers held by a resilient yoke.",
+    "problem": "The patent addresses securing telephone receivers while leaving the operator’s hands free.",
+    "solution": "Two receiver housings attach to a spring-like support; rubber-covered earpieces sit at the ears.",
+    "significance": "This is direct evidence of a wearable, two-ear electrical listening design before Baldwin’s later devices.",
+    "uncertainty": "A patent grant dates a documented design. It does not prove the first invention, commercial adoption or stereo reproduction.",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US454138A/en",
+        "title": "US454138A: Mercadier bi-telephone",
+        "type": "patent",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  },
+  {
+    "id": "history:baldwin-type-c",
+    "slug": "baldwin-type-c",
+    "title": "Baldwin’s Type C in the museum record",
+    "date": "1915–1920",
+    "sortYear": 1915,
+    "era": "Radio",
+    "people": [
+      "Nathaniel Baldwin"
+    ],
+    "organizations": [
+      "Baldwin Radio Company"
+    ],
+    "device": "Type C headset",
+    "summary": "A surviving Type C headset connects headphone history to radio communication.",
+    "problem": "Radio and communication are the contexts recorded by the museum; the maker’s personal motivation is not established here.",
+    "solution": "The Henry Ford preserves a Baldwin Radio Company headset made in Salt Lake City, dated 1915–1920.",
+    "significance": "The object gives the timeline a physical reference, rather than relying on a single-inventor origin story.",
+    "uncertainty": "Its inscriptions cite patents dated 1910 and 1915. Those dates are distinct from the museum’s manufacture range.",
+    "sources": [
+      {
+        "url": "https://www.thehenryford.org/collections/explore/artifact/234315",
+        "title": "The Henry Ford: Type C headphones, 1915–1920",
+        "type": "museum",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  },
+  {
+    "id": "history:koss-sp3",
+    "slug": "koss-sp3",
+    "title": "Stereo music becomes a headphone proposition",
+    "date": "1958",
+    "sortYear": 1958,
+    "era": "Stereo",
+    "people": [
+      "John C. Koss",
+      "Martin Lange Jr."
+    ],
+    "organizations": [
+      "Koss"
+    ],
+    "device": "SP/3 Stereophone",
+    "summary": "Koss dates the SP/3 stereophone to 1958.",
+    "problem": "Koss’s retrospective places the device within a stereo phonograph demonstration.",
+    "solution": "John C. Koss and Martin Lange Jr. developed a portable stereo record player; the SP/3 became part of this music-listening story.",
+    "significance": "The milestone shifts the timeline’s focus from communication to personal stereo music.",
+    "uncertainty": "Koss calls it the first stereo headphone. We attribute that priority claim to the manufacturer rather than treating it as independently settled.",
+    "sources": [
+      {
+        "url": "https://koss.com/blogs/news/headphone-school-first-koss-sp3-stereophone",
+        "title": "Koss: SP/3 history",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  },
+  {
+    "id": "history:sennheiser-hd414",
+    "slug": "sennheiser-hd414",
+    "title": "An open-back milestone: HD 414",
+    "date": "1968",
+    "sortYear": 1968,
+    "era": "Studio",
+    "people": [],
+    "organizations": [
+      "Sennheiser"
+    ],
+    "device": "HD 414",
+    "summary": "Sennheiser dates the launch of its HD 414 open-back headphones to 1968.",
+    "problem": "The documented innovation concerns enclosure design, not a new recording format.",
+    "solution": "The HD 414 introduced an open headphone construction in Sennheiser’s product history.",
+    "significance": "It is a useful historical anchor for understanding open-back designs in today’s catalogue.",
+    "uncertainty": "The world-first claim is Sennheiser’s account. This entry does not independently resolve all earlier experimental designs.",
+    "sources": [
+      {
+        "url": "https://newsroom.sennheiser.com/our-history-296431",
+        "title": "Sennheiser: Our history",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [
+      "technology:open-back"
+    ],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  },
+  {
+    "id": "history:sony-walkman",
+    "slug": "sony-walkman",
+    "title": "Stereo leaves the living room: TPS-L2",
+    "date": "1979-07",
+    "sortYear": 1979,
+    "era": "Portable",
+    "people": [],
+    "organizations": [
+      "Sony"
+    ],
+    "device": "Walkman TPS-L2",
+    "summary": "Sony’s first-generation Walkman went on sale in July 1979.",
+    "problem": "Portable personal listening is the context of this milestone; no undocumented inventor motivation is assumed.",
+    "solution": "The TPS-L2 paired a portable cassette player with headphone listening. Sony records different early overseas product names.",
+    "significance": "The entry connects portable sources to the role of headphones in everyday listening.",
+    "uncertainty": "July 1979 refers to the initial launch, not every regional release. The Walkman did not invent headphones.",
+    "sources": [
+      {
+        "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/capsule/20/",
+        "title": "Sony: Walkman time capsule",
+        "type": "manufacturer",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  },
+  {
+    "id": "history:bluetooth-le-audio",
+    "slug": "bluetooth-le-audio",
+    "title": "A new wireless audio specification family",
+    "date": "2022-07-12",
+    "sortYear": 2022,
+    "era": "Wireless",
+    "people": [],
+    "organizations": [
+      "Bluetooth SIG"
+    ],
+    "device": "LE Audio specifications",
+    "summary": "Bluetooth SIG announced completion of the LE Audio specification suite on 12 July 2022.",
+    "problem": "The standard addresses audio delivery over Bluetooth Low Energy.",
+    "solution": "LE Audio defines a new audio architecture, including the LC3 codec and multi-stream capabilities.",
+    "significance": "It creates a standards milestone for later compatible headphones and source devices.",
+    "uncertainty": "Specification completion is not a product launch. A Bluetooth version number alone does not establish LE Audio support.",
+    "sources": [
+      {
+        "url": "https://www.bluetooth.com/press/completion-le-audio/",
+        "title": "Bluetooth SIG: completion of LE Audio specifications",
+        "type": "standards-body",
+        "verifiedAt": "2026-09-27",
+        "confidence": "primary-source",
+        "scope": "Supports the stated facts; not independent performance testing."
+      }
+    ],
+    "technologyIds": [
+      "technology:bluetooth-le-audio"
+    ],
+    "predecessorIds": [],
+    "successorIds": [],
+    "imageStatus": "No cleared reproduction; view the source collection."
+  }
+]

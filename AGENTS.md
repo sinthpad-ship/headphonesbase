@@ -1,0 +1,9 @@
+# HeadphonesBase production instructions
+HeadphonesBase is a structured knowledge base for headphones: history → technology → database → relationships → compare → choose → commerce → data/API.
+Preserve GitHub Pages static export, HTTPS domain, CNAME, existing routes and source records. Never migrate hosting or change DNS without a concrete need.
+Do useful, safe work, verify it and publish tested changes when authorized. Report only completed work, actual checks and owner-action blockers; never imply background work or invent results.
+Use primary manufacturer, patent, museum, archive and standards sources. Record URLs, source type, actual review date, uncertainty and conflicts. Do not invent specifications, prices, availability, rankings, tests, approval, usage or revenue. Unknown is distinct from false and from not applicable.
+Keep editorial use cases separate from technical facts and commercial offers. Commercial links require real program eligibility, verified destinations, disclosure and sponsored link attributes. No machine payments without tested infrastructure and owner financial decisions.
+Images require recorded reuse permission/license and attribution before display. Preserve unapproved source references, but show a source-link placeholder instead of republishing an uncleared image.
+Use stable IDs for models, history, technologies and graph entities. Only assert sourced relationships; timeline ordering is not causality and model numbers do not prove succession. Prepare vendor-neutral JSON and future API/MCP without pretending static data is a live query service.
+Before release run build, route/data validation and meaningful desktop/mobile journeys. Check production deployment after publishing; distinguish tool failures from confirmed outages. Never expose credentials.

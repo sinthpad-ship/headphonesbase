@@ -19,3 +19,10 @@ When adding a model, read the primary source, capture only supported fields, not
 ## Release scope
 
 50 profiles; 13 categories; 9 selection guides; shareable comparisons of up to four models; combined catalogue filters; canonical metadata, Product and Breadcrumb structured data; 80 sitemap URLs. Product markup intentionally has no invented Offer or AggregateRating. Search engine indexing is not guaranteed by a sitemap. Search Console ownership and affiliate account onboarding require the owner's accounts.
+
+## Knowledge release (2026-09-27)
+History and technology have stable IDs and primary-source provenance in separate JSON collections. `scripts/export-data.py` builds versioned static JSON records and a graph before Next export. Unknown manufacturing entities and succession links remain unknown; `branded_by` is intentionally different from `manufactured_by`. Numeric impedance excludes ambiguous variant lists. Static snapshots are public, not a live API, MCP server or paid data service.
+
+Four Audeze profiles extend the catalogue to 54. MM-100 cable-table conflict is visible. All legacy image references are retained but marked rights-unverified; no photograph displays until rights, permission/license URL and attribution are recorded. This is a rights gate, not a claim that original assets are broken.
+
+The timeline is an initial set of six milestones; additional telegraphy, military, ANC, TWS, DSP and spatial-audio history is not yet covered. Five initial technology terms are not a complete encyclopedia. Program registration/tax validation is not final affiliate approval; offers remain empty.
