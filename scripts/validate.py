@@ -55,8 +55,12 @@ for collection in ['history','technology']:
   for src in record['sources']:assert src['url'].startswith('https://') and src['verifiedAt']
 # No uncleared source photographs may leak into HTML or Product markup.
 for h in data:
- if h.get('image',{}).get('rightsStatus')!='cleared':
-  html=(root/'headphones'/h['slug']/'index.html').read_text()
+ image=h.get('image',{})
+ html=(root/'headphones'/h['slug']/'index.html').read_text()
+ if image.get('rightsStatus')=='cleared':
+  assert all(image.get(k) for k in ('url','sourceUrl','license','licenseUrl','attribution','checkedAt')),h['slug']
+  assert image['url'] in html and image['licenseUrl'] in html,h['slug']
+ else:
   assert not re.search(r'<img[^>]+alt="'+re.escape(h['brand']+' '+h['model']),html)
 print(f'Validated {len(urls)} sitemap URLs, graph integrity and JSON snapshot contracts.')
 print(f'Validated {len(data)} models, {count} HTML routes, internal links, metadata, skip targets and JSON-LD.')

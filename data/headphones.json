@@ -326,10 +326,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/hd_600_product_shot_iso_v1.png?v=1755694756",
-      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hd600_klein.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hd600_klein.jpg",
+      "checkedAt": "2026-09-28",
+      "rightsStatus": "cleared",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Photo: Ulfbastel / Wikimedia Commons; CC BY-SA 3.0. Unmodified."
     }
   },
   {
@@ -353,10 +356,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_HD_650_Sennheiser_01.jpg?v=1755694751",
-      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-650",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sennheiser_HD650_headphones.jpg/960px-Sennheiser_HD650_headphones.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sennheiser_HD650_headphones.jpg",
+      "checkedAt": "2026-09-28",
+      "rightsStatus": "cleared",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Photo: Lucasbosch / Wikimedia Commons; CC BY-SA 3.0. Unmodified thumbnail."
     }
   },
   {
@@ -693,10 +699,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-770-pro-80-ohm-headphones-beyerdynamic-perspective_transparent.png?store=www_en&image-type=image",
-      "sourceUrl": "https://global.beyerdynamic.com/p/dt-770-pro",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Beyerdynamic_DT_770_PRO_Headphones.jpg/1280px-Beyerdynamic_DT_770_PRO_Headphones.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyerdynamic_DT_770_PRO_Headphones.jpg",
+      "checkedAt": "2026-09-28",
+      "rightsStatus": "cleared",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Photo: Mike Russell / Wikimedia Commons; CC BY 2.0. Unmodified thumbnail; photographed 80 Ω variant."
     }
   },
   {
@@ -721,10 +730,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-990-pro-black-edition-headphones-beyerdynamic-perspective_transparent.png?store=www_en&image-type=image",
-      "sourceUrl": "https://global.beyerdynamic.com/p/dt-990-pro",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Beyerdynamic_DT-990_Pro_Headphones_top.jpg/960px-Beyerdynamic_DT-990_Pro_Headphones_top.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyerdynamic_DT-990_Pro_Headphones_top.jpg",
+      "checkedAt": "2026-09-28",
+      "rightsStatus": "cleared",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Photo: ChromeGames923 / Wikimedia Commons; CC BY-SA 4.0. Unmodified thumbnail; photographed 250 Ω variant."
     }
   },
   {
