@@ -1,0 +1,240 @@
+{
+  "id": "model:sennheiser-hd-600",
+  "slug": "sennheiser-hd-600",
+  "fields": {
+    "manufacturer": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "brand": {
+      "status": "documented",
+      "value": "Sennheiser",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "model": {
+      "status": "documented",
+      "value": "HD 600",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "variant": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "generation": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "releaseDate": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "status": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "form": {
+      "status": "documented",
+      "value": "over-ear",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "design": {
+      "status": "documented",
+      "value": "open-back",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "connection": {
+      "status": "documented",
+      "value": "Wired; 6.3 mm / 3.5 mm adapter",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "wireless": {
+      "status": "documented",
+      "value": false,
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "anc": {
+      "status": "not-applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "driverTechnology": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "driver": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "impedance": {
+      "status": "documented",
+      "value": "300 Ω",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "sensitivity": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "frequency": {
+      "status": "documented",
+      "value": "12–40,500 Hz",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "weight": {
+      "status": "documented",
+      "value": "260 g",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "bluetoothVersion": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "codecs": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "microphone": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "battery": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "charging": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "connectors": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "cable": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "impedanceOhms": {
+      "status": "documented",
+      "value": 300.0,
+      "unit": "ohm",
+      "sources": [
+        {
+          "url": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    }
+  },
+  "officialProductUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-600",
+  "sourceReviewedAt": "2026-09-16",
+  "useCases": {
+    "basis": "editorial",
+    "values": [
+      "audiophile"
+    ]
+  },
+  "conflicts": [],
+  "image": {
+    "status": "licensed",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hd600_klein.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hd600_klein.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Ulfbastel / Wikimedia Commons; CC BY-SA 3.0. Unmodified.",
+    "verifiedAt": "2026-09-28"
+  },
+  "predecessor": {
+    "status": "unknown",
+    "id": null
+  },
+  "successor": {
+    "status": "unknown",
+    "id": null
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "model:beyerdynamic-dt-770-pro",
+  "slug": "beyerdynamic-dt-770-pro",
+  "fields": {
+    "manufacturer": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "brand": {
+      "status": "documented",
+      "value": "beyerdynamic",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "model": {
+      "status": "documented",
+      "value": "DT 770 PRO",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "variant": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "generation": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "releaseDate": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "status": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "form": {
+      "status": "documented",
+      "value": "over-ear",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "design": {
+      "status": "documented",
+      "value": "closed-back",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "connection": {
+      "status": "documented",
+      "value": "Wired; 3.5 mm / 6.35 mm",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "wireless": {
+      "status": "documented",
+      "value": false,
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "anc": {
+      "status": "not-applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "driverTechnology": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "driver": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "impedance": {
+      "status": "documented",
+      "value": "32 / 80 / 250 (separate variants) Ω",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "sensitivity": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "frequency": {
+      "status": "documented",
+      "value": "5–35,000 Hz",
+      "sources": [
+        {
+          "url": "https://global.beyerdynamic.com/p/dt-770-pro",
+          "type": "manufacturer",
+          "verifiedAt": "2026-09-16",
+          "scope": "profile-level source; not a new field-level recheck"
+        }
+      ]
+    },
+    "weight": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "bluetoothVersion": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "codecs": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "microphone": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "battery": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "charging": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "connectors": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "cable": {
+      "status": "unknown",
+      "value": null,
+      "sources": []
+    },
+    "impedanceOhms": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ohm",
+      "sources": []
+    }
+  },
+  "officialProductUrl": "https://global.beyerdynamic.com/p/dt-770-pro",
+  "sourceReviewedAt": "2026-09-16",
+  "useCases": {
+    "basis": "editorial",
+    "values": [
+      "studio",
+      "recording"
+    ]
+  },
+  "conflicts": [],
+  "image": {
+    "status": "licensed",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyerdynamic_DT_770_PRO_Headphones.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Beyerdynamic_DT_770_PRO_Headphones.jpg/1280px-Beyerdynamic_DT_770_PRO_Headphones.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Mike Russell / Wikimedia Commons; CC BY 2.0. Unmodified thumbnail; photographed 80 Ω variant.",
+    "verifiedAt": "2026-09-28"
+  },
+  "predecessor": {
+    "status": "unknown",
+    "id": null
+  },
+  "successor": {
+    "status": "unknown",
+    "id": null
+  }
+}

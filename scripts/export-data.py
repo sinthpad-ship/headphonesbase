@@ -30,7 +30,11 @@ for item in h:
  # Normalize a single explicit impedance, never flatten variant lists.
  raw=item['specs'].get('impedance','');m=re.fullmatch(r'(\d+(?:\.\d+)?)\s*Ω',raw)
  fs['impedanceOhms']={'status':'documented' if m else 'unknown','value':float(m[1]) if m else None,'unit':'ohm','sources':[base] if m else []}
- record={'id':model_id,'slug':item['slug'],'fields':fs,'officialProductUrl':item['sourceUrl'],'sourceReviewedAt':item['checkedAt'],'useCases':{'basis':'editorial','values':item['uses']},'conflicts':item.get('conflicts',[]),'image':{'status':'unverified-rights','sourceUrl':item.get('image',{}).get('sourceUrl',item['sourceUrl'])},'predecessor':{'status':'unknown','id':None},'successor':{'status':'unknown','id':None}}
+ photo=item.get('image',{})
+ licensed=photo.get('rightsStatus')=='cleared' and all(photo.get(k) for k in ('license','licenseUrl','attribution'))
+ image={'status':'licensed' if licensed else 'unverified-rights','sourceUrl':photo.get('sourceUrl',item['sourceUrl'])}
+ if licensed:image.update({'url':photo['url'],'license':photo['license'],'licenseUrl':photo['licenseUrl'],'attribution':photo['attribution'],'verifiedAt':photo['checkedAt']})
+ record={'id':model_id,'slug':item['slug'],'fields':fs,'officialProductUrl':item['sourceUrl'],'sourceReviewedAt':item['checkedAt'],'useCases':{'basis':'editorial','values':item['uses']},'conflicts':item.get('conflicts',[]),'image':image,'predecessor':{'status':'unknown','id':None},'successor':{'status':'unknown','id':None}}
  records.append(record);save('models/'+item['slug']+'.json',record)
  edges.append({'subject':model_id,'predicate':'branded_by','object':brand_id,'sources':[base],'basis':'documented-specification'})
  for t in tech:
