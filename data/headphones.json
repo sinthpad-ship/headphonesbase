@@ -501,10 +501,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://eu.sennheiser-hearing.com/cdn/shop/files/momentum_4_isofront_v1.jpg?v=1755694731",
-      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/momentum-4-wireless",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://images.unsplash.com/photo-1754142654796-cafbcb9f633b?auto=format&fit=max&w=960&q=85",
+      "sourceUrl": "https://unsplash.com/photos/dZ5XCCu37Xw",
+      "checkedAt": "2026-09-30",
+      "rightsStatus": "cleared",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "attribution": "Photo: Andrey Matveev / Unsplash. Resized photograph; no endorsement implied."
     }
   },
   {
@@ -797,10 +800,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://www.sony.co.uk/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=640&hei=480",
-      "sourceUrl": "https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm5",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://images.unsplash.com/photo-1733041055704-da53567e49da?auto=format&fit=max&w=960&q=85",
+      "sourceUrl": "https://unsplash.com/photos/bc3c-PhEgqQ",
+      "checkedAt": "2026-09-30",
+      "rightsStatus": "cleared",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "attribution": "Photo: Ben Stones / Unsplash. Resized photograph; no endorsement implied."
     }
   },
   {
@@ -826,10 +832,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://www.sony.com/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&resMode=bisharp&wid=640",
-      "sourceUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm4",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://images.unsplash.com/photo-1614860243518-c12eb2fdf66c?auto=format&fit=max&w=960&q=85",
+      "sourceUrl": "https://unsplash.com/photos/GxWwjOjJ5Ss",
+      "checkedAt": "2026-09-30",
+      "rightsStatus": "cleared",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "attribution": "Photo: Varad Murti / Unsplash. Resized photograph; no endorsement implied."
     }
   },
   {
