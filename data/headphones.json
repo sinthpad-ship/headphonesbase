@@ -153,10 +153,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://www.audio-technica.com/media/converted/resized/0a4b2374107e6d1092b4700af5457b03/1000x1000/catalog/product/a/t/ath-m70x_011x.webp",
-      "sourceUrl": "https://www.audio-technica.com/en/ath-m70x",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Audio-Technica_ATH-M70x_Headphones.jpg/960px-Audio-Technica_ATH-M70x_Headphones.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audio-Technica_ATH-M70x_Headphones.jpg",
+      "attribution": "Photo: ChromeGames923 / Wikimedia Commons; CC BY-SA 4.0. Unmodified thumbnail; third-party cable pictured.",
+      "checkedAt": "2026-09-30",
+      "rightsStatus": "cleared",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
   },
   {
@@ -466,10 +469,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_Sennheiser_HD-800-S_Over-Ear_02.jpg?v=1755694748",
-      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-800-s",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sennheiser_HD800S.jpg/960px-Sennheiser_HD800S.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sennheiser_HD800S.jpg",
+      "attribution": "Photo: Benlisquare / Wikimedia Commons; CC BY-SA 4.0. Unmodified thumbnail; 6.35 mm cable pictured.",
+      "checkedAt": "2026-09-30",
+      "rightsStatus": "cleared",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
   },
   {
