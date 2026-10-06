@@ -1464,10 +1464,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-880-pro-perspective_transparent-3.png?store=www_en&image-type=image",
-      "sourceUrl": "https://global.beyerdynamic.com/p/dt-880-pro",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Beyerdynamic_headphones_IBC_2008.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyerdynamic_headphones_IBC_2008.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Photo: CLI / Wikimedia Commons, IBC 2008. DT 880 PRO is the leftmost headphone; the other headphones are DT 770 M, DT 770 and DT 990 PRO. Original photograph, displayed at reduced size. No endorsement implied.",
+      "rightsStatus": "cleared",
+      "checkedAt": "2026-10-06"
     }
   },
   {
