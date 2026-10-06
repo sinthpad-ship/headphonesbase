@@ -83,10 +83,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://www.audio-technica.com/media/converted/resized/262c88e7d0df6510fa510ebeae455254/1000x1000/catalog/product/a/t/ath-m40x_01a1x.webp",
-      "sourceUrl": "https://www.audio-technica.com/en/ath-m40x",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Audio-Technica_Headphones_%28Custom_Earpads%29.jpg/960px-Audio-Technica_Headphones_%28Custom_Earpads%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audio-Technica_Headphones_(Custom_Earpads).jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Photo: P0lykey / Wikimedia Commons. Pictured with aftermarket Brainwavz angled earpads, not the factory earpads. Resized photograph.",
+      "rightsStatus": "cleared",
+      "checkedAt": "2026-10-06"
     }
   },
   {
@@ -442,10 +445,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://eu.sennheiser-hearing.com/cdn/shop/products/product_detail_x2_desktop_HD_599_Sennheiser_01_a50907c8-900e-482a-ad1b-1c0c5f6810e1.jpg?v=1755694746",
-      "sourceUrl": "https://eu.sennheiser-hearing.com/en-nl/products/hd-599",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "https://images.unsplash.com/photo-1698940658640-a38ca4029645?auto=format&fit=max&w=960&q=85",
+      "sourceUrl": "https://unsplash.com/photos/LefZ3fv6yv4",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "attribution": "Photo: XT7 Core / Unsplash. HD 599 in foreground; HD 25 in background. Resized photograph.",
+      "rightsStatus": "cleared",
+      "checkedAt": "2026-10-06"
     }
   },
   {
