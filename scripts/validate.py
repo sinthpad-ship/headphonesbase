@@ -64,3 +64,23 @@ for h in data:
   assert not re.search(r'<img[^>]+alt="'+re.escape(h['brand']+' '+h['model']),html)
 print(f'Validated {len(urls)} sitemap URLs, graph integrity and JSON snapshot contracts.')
 print(f'Validated {len(data)} models, {count} HTML routes, internal links, metadata, skip targets and JSON-LD.')
+# Commercial records must identify a real catalogue model and a tagged destination.
+from urllib.parse import parse_qs
+from datetime import date
+from html import unescape
+offers=json.load(open('data/offers.json'))
+assert len({o['id'] for o in offers})==len(offers)
+for o in offers:
+ assert o['productSlug'] in {h['slug'] for h in data}
+ assert date.fromisoformat(o['verifiedAt']) < date.fromisoformat(o['expiresAt'])
+ u=urlsplit(o['url'])
+ assert u.scheme=='https' and o['evidenceUrl'].startswith('https://')
+ if o['merchant']=='Amazon.com':
+  assert u.hostname=='www.amazon.com' and re.fullmatch(r'/dp/[A-Z0-9]{10}',u.path)
+  assert parse_qs(u.query).get('tag')==['headphonesbas-20']
+  assert 'price' not in o and 'availability' not in o
+ if o['approved'] and date.fromisoformat(o['verifiedAt'])<=date.today()<date.fromisoformat(o['expiresAt']):
+  html=unescape((root/'headphones'/o['productSlug']/'index.html').read_text())
+  assert o['url'] in html and 'As an Amazon Associate I earn from qualifying purchases.' in html
+  assert 'sponsored nofollow noopener noreferrer' in html and '(paid link)' in html
+print(f'Validated {len(offers)} commercial records and affiliate disclosures.')

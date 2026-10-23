@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "amazon-us-b00hvlur86",
+    "productSlug": "audio-technica-ath-m50x",
+    "merchant": "Amazon.com",
+    "url": "https://www.amazon.com/dp/B00HVLUR86?tag=headphonesbas-20",
+    "affiliate": true,
+    "approved": true,
+    "region": "US",
+    "verifiedAt": "2026-10-23",
+    "expiresAt": "2026-11-23",
+    "evidenceUrl": "https://www.amazon.com/dp/B00HVLUR86",
+    "variant": "Black",
+    "verificationNote": "Amazon product title and model matched on 2026-10-23. Listing identity only; no price, stock, seller or shipping claim. approved means editorial approval to publish this link, not final Amazon application acceptance."
+  },
+  {
+    "id": "amazon-us-b0bxycs74h",
+    "productSlug": "sony-wh-1000xm5",
+    "merchant": "Amazon.com",
+    "url": "https://www.amazon.com/dp/B0BXYCS74H?tag=headphonesbas-20",
+    "affiliate": true,
+    "approved": true,
+    "region": "US",
+    "verifiedAt": "2026-10-23",
+    "expiresAt": "2026-11-23",
+    "evidenceUrl": "https://www.amazon.com/dp/B0BXYCS74H",
+    "variant": "Midnight Blue",
+    "verificationNote": "Amazon product title and model matched on 2026-10-23. Listing identity only; no price, stock, seller or shipping claim. approved means editorial approval to publish this link, not final Amazon application acceptance."
+  },
+  {
+    "id": "amazon-us-b0f3pqhwtz",
+    "productSlug": "sony-wh-1000xm6",
+    "merchant": "Amazon.com",
+    "url": "https://www.amazon.com/dp/B0F3PQHWTZ?tag=headphonesbas-20",
+    "affiliate": true,
+    "approved": true,
+    "region": "US",
+    "verifiedAt": "2026-10-23",
+    "expiresAt": "2026-11-23",
+    "evidenceUrl": "https://www.amazon.com/dp/B0F3PQHWTZ",
+    "variant": "Black",
+    "verificationNote": "Amazon product title and model matched on 2026-10-23. Listing identity only; no price, stock, seller or shipping claim. approved means editorial approval to publish this link, not final Amazon application acceptance."
+  },
+  {
+    "id": "amazon-us-b0fdkq2fg6",
+    "productSlug": "bose-quietcomfort-ultra-headphones-2nd-gen",
+    "merchant": "Amazon.com",
+    "url": "https://www.amazon.com/dp/B0FDKQ2FG6?tag=headphonesbas-20",
+    "affiliate": true,
+    "approved": true,
+    "region": "US",
+    "verifiedAt": "2026-10-23",
+    "expiresAt": "2026-11-23",
+    "evidenceUrl": "https://www.amazon.com/dp/B0FDKQ2FG6",
+    "variant": "Driftwood Sand \u2014 Limited Edition",
+    "verificationNote": "Amazon product title and model matched on 2026-10-23. Listing identity only; no price, stock, seller or shipping claim. approved means editorial approval to publish this link, not final Amazon application acceptance."
+  }
+]
