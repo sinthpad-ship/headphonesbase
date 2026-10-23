@@ -40,3 +40,18 @@ test('Amazon links disclose commissions and preserve tracking and variants',asyn
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
  }
 });
+
+test('retailer links appear in catalogue, profile hero and comparison',async({page})=>{
+ await page.goto('/headphones/');
+ await page.getByLabel('Find a model').fill('DT 770 PRO');
+ const card=page.locator('.product-card').filter({has:page.getByRole('heading',{name:'DT 770 PRO',exact:true})});
+ await expect(card.getByRole('link',{name:/View at Amazon.com/})).toHaveAttribute('href','https://www.amazon.com/dp/B0016MNAAI?tag=headphonesbas-20');
+ await expect(card).toContainText('80 ohm');
+ await page.goto('/headphones/sennheiser-hd-600/');
+ await expect(page.locator('.profile-hero').getByRole('link',{name:/View at Amazon.com/})).toHaveAttribute('href','https://www.amazon.com/dp/B00004SY4H?tag=headphonesbas-20');
+ await page.goto('/compare/?models=sennheiser-hd-600,sennheiser-hd-650');
+ const row=page.getByRole('row').filter({has:page.getByRole('rowheader',{name:'Retailer links',exact:true})});
+ await expect(row.getByRole('link',{name:/View at Amazon.com/})).toHaveCount(2);
+ await expect(row).toContainText('As an Amazon Associate');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+});
