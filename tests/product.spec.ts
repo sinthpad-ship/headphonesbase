@@ -25,3 +25,18 @@ test('history filters, evidence pages and technology discovery',async({page})=>{
  await page.goto('/headphones/audeze-mm-100/');await expect(page.getByText('Source conflict: cable')).toBeVisible();
  for(const path of ['/history/','/technology/','/data/']){await page.goto(path);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();}
 });
+
+test('Amazon links disclose commissions and preserve tracking and variants',async({page})=>{
+ const offers=[['audio-technica-ath-m50x','B00HVLUR86','Black'],['sony-wh-1000xm5','B0BXYCS74H','Midnight Blue'],['sony-wh-1000xm6','B0F3PQHWTZ','Black'],['bose-quietcomfort-ultra-headphones-2nd-gen','B0FDKQ2FG6','Driftwood Sand']];
+ for(const [slug,asin,variant] of offers){
+  await page.goto('/headphones/'+slug+'/');
+  const section=page.locator('section').filter({has:page.getByRole('heading',{name:'Where to buy',exact:true})});
+  const link=section.getByRole('link',{name:/View at Amazon.com/});
+  await expect(link).toBeVisible();
+  await expect(link).toHaveAttribute('href','https://www.amazon.com/dp/'+asin+'?tag=headphonesbas-20');
+  await expect(link).toHaveAttribute('rel',/sponsored/);
+  await expect(section).toContainText('As an Amazon Associate I earn from qualifying purchases.');
+  await expect(section).toContainText(variant);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+ }
+});
