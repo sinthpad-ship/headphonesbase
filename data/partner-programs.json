@@ -1,0 +1,144 @@
+[
+  {
+    "brand": "beyerdynamic",
+    "status": "confirmed-program-not-enrolled",
+    "network": "Awin",
+    "url": "https://www.beyerdynamic.de/affiliate?cid=footer",
+    "terms": "Commission negotiated individually; 5% is an example, not an agreed rate. Attribution window 30 days. Net qualifying sales; returns excluded. Confirm target storefront and Bulgarian publisher eligibility before applying.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "beyerdynamic-dt-770-pro-x",
+      "beyerdynamic-dt-990-pro-x",
+      "beyerdynamic-dt-700-pro-x",
+      "beyerdynamic-dt-900-pro-x",
+      "beyerdynamic-dt-770-pro",
+      "beyerdynamic-dt-990-pro",
+      "beyerdynamic-mmx-150-wireless",
+      "beyerdynamic-mmx-300-pro",
+      "beyerdynamic-mmx-330-pro",
+      "beyerdynamic-dt-880-pro"
+    ]
+  },
+  {
+    "brand": "Sony",
+    "status": "confirmed-program-not-enrolled",
+    "network": "Awin",
+    "url": "https://ui.awin.com/merchant-profile/34013",
+    "terms": "Sony UK: category rates up to 3%, 30-day attribution, 45-day validation. Headphone-specific rates and product availability require the approved account/feed. Other regional storefronts require separate program checks.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "sony-wh-1000xm6",
+      "sony-wh-1000xm5",
+      "sony-wh-1000xm4",
+      "sony-wh-ch720n",
+      "sony-wf-c510"
+    ]
+  },
+  {
+    "brand": "Sennheiser",
+    "status": "network-program-needs-account-confirmation",
+    "network": "FlexOffers",
+    "url": "https://www.flexoffers.com/affiliate-programs/sennheiser-affiliate-program/",
+    "terms": "Network page states 5% sales and 30-day cookie but displays both Active and Deactivated labels. Do not activate until availability, region, model coverage and publisher approval are confirmed. Consumer Hearing and professional Sennheiser are separate routes.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "sennheiser-hd-600",
+      "sennheiser-hd-650",
+      "sennheiser-hd-660s2",
+      "sennheiser-hd-560s",
+      "sennheiser-hd-599",
+      "sennheiser-hd-800-s",
+      "sennheiser-momentum-4-wireless",
+      "sennheiser-accentum-wireless",
+      "sennheiser-accentum-plus-wireless",
+      "sennheiser-ie-200",
+      "sennheiser-ie-600",
+      "sennheiser-ie-900"
+    ]
+  },
+  {
+    "brand": "Audio-Technica",
+    "status": "no-direct-affiliate-program-published",
+    "network": null,
+    "url": "https://www.audio-technica.com/en-us/creator-community",
+    "terms": "Official US Creator Community explicitly states no affiliate program. Do not invent direct commissions. Options: separately negotiated sponsorship or a verified non-Amazon retailer program, if approved; creator membership is not a commission contract.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "audio-technica-ath-m20x",
+      "audio-technica-ath-m30x",
+      "audio-technica-ath-m40x",
+      "audio-technica-ath-m50x",
+      "audio-technica-ath-m70x",
+      "audio-technica-ath-r70x",
+      "audio-technica-ath-ad700x",
+      "audio-technica-ath-ad900x",
+      "audio-technica-ath-m50xbt2",
+      "audio-technica-ath-m20xbt",
+      "audio-technica-ath-r50x",
+      "audio-technica-ath-r70xa",
+      "audio-technica-ath-a990z",
+      "audio-technica-ath-ad500x"
+    ]
+  },
+  {
+    "brand": "AKG",
+    "status": "direct-program-unconfirmed",
+    "network": null,
+    "url": "https://www.akg.com/",
+    "terms": "No direct affiliate terms confirmed in this audit. Obtain written Harman/AKG terms or an approved retailer arrangement before adding paid links.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "akg-k371",
+      "akg-k712-pro",
+      "akg-k361",
+      "akg-k702"
+    ]
+  },
+  {
+    "brand": "Shure",
+    "status": "direct-program-unconfirmed",
+    "network": null,
+    "url": "https://www.shure.com/en-MEA/product-request",
+    "terms": "Official sales inquiry route exists, but a reseller account is not an affiliate program. Ask for publisher referral terms and approved media assets; no commission assumed.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "shure-srh1540",
+      "shure-srh1840",
+      "shure-srh840a",
+      "shure-srh440a"
+    ]
+  },
+  {
+    "brand": "Audeze",
+    "status": "direct-program-unconfirmed",
+    "network": null,
+    "url": "https://www.audeze.com/blogs/audeze-journal/joe-zieja-audeze-affiliate",
+    "terms": "Official historical announcement confirms an Audeze gaming affiliate team existed. Current public enrollment, catalogue eligibility, rates and regional terms are not verified. Do not infer coverage of LCD-2, LCD-X or MM-100 from a gaming announcement.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "audeze-lcd-2-classic",
+      "audeze-lcd-2",
+      "audeze-lcd-x",
+      "audeze-mm-100"
+    ]
+  },
+  {
+    "brand": "Bose",
+    "status": "direct-program-unconfirmed",
+    "network": null,
+    "url": "https://www.bose.com/partnerships-and-licensing",
+    "terms": "Third-party rates conflict. No first-party regional publisher terms verified; confirm network, applicable storefront and exact second-generation SKU before linking.",
+    "reviewedAt": "2026-10-27",
+    "approvedForHeadphonesBase": false,
+    "models": [
+      "bose-quietcomfort-ultra-headphones-2nd-gen"
+    ]
+  }
+]

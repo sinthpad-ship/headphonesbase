@@ -1546,7 +1546,13 @@
         "scope": "Supports the stated facts; not independent performance testing."
       }
     },
-    "conflicts": []
+    "conflicts": [],
+    "image": {
+      "url": "https://www.audeze.com/cdn/shop/products/LCD-2_Classic_Updated_2019_4471x4471_600x.jpg?v=1570129685",
+      "sourceUrl": "https://www.audeze.com/products/lcd-2-classic",
+      "rightsStatus": "unverified",
+      "checkedAt": "2026-10-27"
+    }
   },
   {
     "slug": "audeze-lcd-2",
@@ -1621,7 +1627,13 @@
         "scope": "Supports the stated facts; not independent performance testing."
       }
     },
-    "conflicts": []
+    "conflicts": [],
+    "image": {
+      "url": "https://www.audeze.com/cdn/shop/files/LCD-2-ProductImages-3Q_600x.png?v=1725554974",
+      "sourceUrl": "https://www.audeze.com/products/lcd-2",
+      "rightsStatus": "unverified",
+      "checkedAt": "2026-10-27"
+    }
   },
   {
     "slug": "audeze-lcd-x",
@@ -1698,7 +1710,13 @@
         "scope": "Supports the stated facts; not independent performance testing."
       }
     },
-    "conflicts": []
+    "conflicts": [],
+    "image": {
+      "url": "https://www.audeze.com/cdn/shop/products/LCD-X_Updated_2019_4471x4471_600x.jpg?v=1570129683",
+      "sourceUrl": "https://www.audeze.com/products/lcd-x",
+      "rightsStatus": "unverified",
+      "checkedAt": "2026-10-27"
+    }
   },
   {
     "slug": "audeze-mm-100",
@@ -1781,6 +1799,12 @@
         "sourceUrl": "https://www.audeze.com/products/mm-100",
         "verifiedAt": "2026-09-27"
       }
-    ]
+    ],
+    "image": {
+      "url": "https://www.audeze.com/cdn/shop/products/Gallery4_600x.png?v=1681242183",
+      "sourceUrl": "https://www.audeze.com/products/mm-100",
+      "rightsStatus": "unverified",
+      "checkedAt": "2026-10-27"
+    }
   }
 ]

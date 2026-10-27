@@ -1,0 +1,272 @@
+{
+  "checkedAt": "2026-10-27",
+  "note": "HTTP check from build environment; failures may be environmental and do not prove a production browser failure.",
+  "results": [
+    {
+      "slug": "audio-technica-ath-m20x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-m30x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-m40x",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "audio-technica-ath-m50x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-m70x",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "audio-technica-ath-r70x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-ad700x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-ad900x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-m50xbt2",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-m20xbt",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "sennheiser-hd-600",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-hd-650",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-hd-660s2",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "sennheiser-hd-560s",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-hd-599",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-hd-800-s",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-momentum-4-wireless",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-accentum-wireless",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-accentum-plus-wireless",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "beyerdynamic-dt-770-pro-x",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-dt-990-pro-x",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-dt-700-pro-x",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-dt-900-pro-x",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-dt-770-pro",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "beyerdynamic-dt-990-pro",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sony-wh-1000xm6",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sony-wh-1000xm5",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sony-wh-1000xm4",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sony-wh-ch720n",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "sony-wf-c510",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "bose-quietcomfort-ultra-headphones-2nd-gen",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "slug": "akg-k371",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "akg-k712-pro",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "shure-srh1540",
+      "status": "HTTP Error 403: Forbidden"
+    },
+    {
+      "slug": "shure-srh1840",
+      "status": "HTTP Error 403: Forbidden"
+    },
+    {
+      "slug": "beyerdynamic-mmx-150-wireless",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-mmx-300-pro",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "shure-srh840a",
+      "status": "HTTP Error 403: Forbidden"
+    },
+    {
+      "slug": "shure-srh440a",
+      "status": "HTTP Error 403: Forbidden"
+    },
+    {
+      "slug": "audio-technica-ath-r50x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-r70xa",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-a990z",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "audio-technica-ath-ad500x",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "slug": "sennheiser-ie-200",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "sennheiser-ie-600",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "sennheiser-ie-900",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "akg-k361",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "akg-k702",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-mmx-330-pro",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "beyerdynamic-dt-880-pro",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "audeze-lcd-2-classic",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "audeze-lcd-2",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "slug": "audeze-lcd-x",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "slug": "audeze-mm-100",
+      "status": 200,
+      "contentType": "image/png"
+    }
+  ]
+}
