@@ -408,32 +408,32 @@
       "slug": "audeze-lcd-2-classic",
       "brand": "Audeze",
       "model": "LCD-2 Classic",
-      "rightsStatus": "missing",
-      "imageUrl": null,
+      "rightsStatus": "unverified",
+      "imageUrl": "https://www.audeze.com/cdn/shop/products/LCD-2_Classic_Updated_2019_4471x4471_600x.jpg?v=1570129685",
       "sourceUrl": "https://www.audeze.com/products/lcd-2-classic"
     },
     {
       "slug": "audeze-lcd-2",
       "brand": "Audeze",
       "model": "LCD-2",
-      "rightsStatus": "missing",
-      "imageUrl": null,
+      "rightsStatus": "unverified",
+      "imageUrl": "https://www.audeze.com/cdn/shop/files/LCD-2-ProductImages-3Q_600x.png?v=1725554974",
       "sourceUrl": "https://www.audeze.com/products/lcd-2"
     },
     {
       "slug": "audeze-lcd-x",
       "brand": "Audeze",
       "model": "LCD-X",
-      "rightsStatus": "missing",
-      "imageUrl": null,
+      "rightsStatus": "unverified",
+      "imageUrl": "https://www.audeze.com/cdn/shop/products/LCD-X_Updated_2019_4471x4471_600x.jpg?v=1570129683",
       "sourceUrl": "https://www.audeze.com/products/lcd-x"
     },
     {
       "slug": "audeze-mm-100",
       "brand": "Audeze",
       "model": "MM-100",
-      "rightsStatus": "missing",
-      "imageUrl": null,
+      "rightsStatus": "unverified",
+      "imageUrl": "https://www.audeze.com/cdn/shop/products/Gallery4_600x.png?v=1681242183",
       "sourceUrl": "https://www.audeze.com/products/mm-100"
     }
   ]

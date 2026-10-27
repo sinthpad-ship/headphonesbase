@@ -250,19 +250,23 @@
     },
     {
       "slug": "audeze-lcd-2-classic",
-      "status": "no-image-url"
+      "status": 200,
+      "contentType": "image/jpeg"
     },
     {
       "slug": "audeze-lcd-2",
-      "status": "no-image-url"
+      "status": 200,
+      "contentType": "image/png"
     },
     {
       "slug": "audeze-lcd-x",
-      "status": "no-image-url"
+      "status": 200,
+      "contentType": "image/jpeg"
     },
     {
       "slug": "audeze-mm-100",
-      "status": "no-image-url"
+      "status": 200,
+      "contentType": "image/png"
     }
   ]
 }
