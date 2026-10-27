@@ -60,6 +60,8 @@ for h in data:
  if image.get('rightsStatus')=='cleared':
   assert all(image.get(k) for k in ('url','sourceUrl','license','licenseUrl','attribution','checkedAt')),h['slug']
   assert image['url'] in html and image['licenseUrl'] in html,h['slug']
+  if image['url'].startswith('/'):
+   assert (root/image['url'].lstrip('/')).is_file(),(h['slug'],'missing local image')
  else:
   assert not re.search(r'<img[^>]+alt="'+re.escape(h['brand']+' '+h['model']),html)
 print(f'Validated {len(urls)} sitemap URLs, graph integrity and JSON snapshot contracts.')
