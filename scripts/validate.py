@@ -81,6 +81,14 @@ for o in offers:
   assert 'price' not in o and 'availability' not in o
  if o['approved'] and date.fromisoformat(o['verifiedAt'])<=date.today()<date.fromisoformat(o['expiresAt']):
   html=unescape((root/'headphones'/o['productSlug']/'index.html').read_text())
-  assert o['url'] in html and 'As an Amazon Associate I earn from qualifying purchases.' in html
-  assert 'sponsored nofollow noopener noreferrer' in html and '(paid link)' in html
+  assert o['url'] in html
+  if o['merchant']=='Amazon.com':assert 'As an Amazon Associate I earn from qualifying purchases.' in html
+  if o['affiliate']:assert 'sponsored nofollow noopener noreferrer' in html and '(paid link)' in html
 print(f'Validated {len(offers)} commercial records and affiliate disclosures.')
+
+# Partner research is not merchant approval; every model must have a researched route.
+programs=json.load(open('data/partner-programs.json'))
+assert {p['brand'] for p in programs}=={h['brand'] for h in data}
+assert sorted(slug for p in programs for slug in p['models'])==sorted(h['slug'] for h in data)
+assert all(p['approvedForHeadphonesBase'] is False and p['url'].startswith('https://') for p in programs)
+print(f'Validated partner research mapping for {len(programs)} brands and {len(data)} models; no partner approval claimed.')
