@@ -1,7 +1,7 @@
 {
   "reviewedAt": "2026-10-27",
   "total": 54,
-  "cleared": 12,
+  "cleared": 14,
   "note": "Rights review only. Cleared does not prove image delivery; run a separate HTTP/browser check. A candidate URL is not permission.",
   "models": [
     {
@@ -176,16 +176,16 @@
       "slug": "beyerdynamic-dt-700-pro-x",
       "brand": "beyerdynamic",
       "model": "DT 700 PRO X",
-      "rightsStatus": "unverified",
-      "imageUrl": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-700-pro-x-beyerdynamic-perspective_transparent_2_1.png?store=www_en&image-type=image",
+      "rightsStatus": "cleared",
+      "imageUrl": "/images/models/beyerdynamic-dt-700-pro-x.jpg",
       "sourceUrl": "https://global.beyerdynamic.com/p/dt-700-pro-x"
     },
     {
       "slug": "beyerdynamic-dt-900-pro-x",
       "brand": "beyerdynamic",
       "model": "DT 900 PRO X",
-      "rightsStatus": "unverified",
-      "imageUrl": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-900-pro-x-perspective_transparent.png?store=www_en&image-type=image",
+      "rightsStatus": "cleared",
+      "imageUrl": "/images/models/beyerdynamic-dt-900-pro-x.jpg",
       "sourceUrl": "https://global.beyerdynamic.com/p/dt-900-pro-x"
     },
     {

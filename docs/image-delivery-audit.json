@@ -109,13 +109,17 @@
     },
     {
       "slug": "beyerdynamic-dt-700-pro-x",
-      "status": 200,
-      "contentType": "image/png"
+      "status": "local-file-verified",
+      "contentType": "image/jpeg",
+      "path": "/images/models/beyerdynamic-dt-700-pro-x.jpg",
+      "note": "Downloaded JPEG decoded and inspected locally; production check follows deploy."
     },
     {
       "slug": "beyerdynamic-dt-900-pro-x",
-      "status": 200,
-      "contentType": "image/png"
+      "status": "local-file-verified",
+      "contentType": "image/jpeg",
+      "path": "/images/models/beyerdynamic-dt-900-pro-x.jpg",
+      "note": "Downloaded JPEG decoded and inspected locally; production check follows deploy."
     },
     {
       "slug": "beyerdynamic-dt-770-pro",

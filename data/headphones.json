@@ -658,10 +658,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-700-pro-x-beyerdynamic-perspective_transparent_2_1.png?store=www_en&image-type=image",
-      "sourceUrl": "https://global.beyerdynamic.com/p/dt-700-pro-x",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "/images/models/beyerdynamic-dt-700-pro-x.jpg",
+      "sourceUrl": "https://www.pexels.com/photo/a-close-up-shot-of-a-beyerdynamic-dt-700-pro-x-headphones-10433470/",
+      "checkedAt": "2026-10-27",
+      "rightsStatus": "cleared",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attribution": "Photo: TStudio / Pexels. Displayed at reduced size; no endorsement implied."
     }
   },
   {
@@ -687,10 +690,13 @@
     "checkedAt": "2026-09-16",
     "verification": "manufacturer-page",
     "image": {
-      "url": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-900-pro-x-perspective_transparent.png?store=www_en&image-type=image",
-      "sourceUrl": "https://global.beyerdynamic.com/p/dt-900-pro-x",
-      "checkedAt": "2026-09-17",
-      "rightsStatus": "unverified"
+      "url": "/images/models/beyerdynamic-dt-900-pro-x.jpg",
+      "sourceUrl": "https://www.pexels.com/photo/a-beyerdynamic-dt-900-pro-x-on-a-headphone-stand-10433483/",
+      "checkedAt": "2026-10-27",
+      "rightsStatus": "cleared",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attribution": "Photo: TStudio / Pexels. Displayed at reduced size; no endorsement implied."
     }
   },
   {

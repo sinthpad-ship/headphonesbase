@@ -41,3 +41,6 @@ Hello, I am Svetoslav Milanov, founder of HeadphonesBase, a headphone knowledge 
 
 ## Outstanding external dependencies
 Image rights for 42 models; approved non-Amazon publisher accounts and tracking links; verified owner account for Search Console and chosen social publishing channels. No credentials should be placed in code or chat. These are incomplete, not confirmed approvals or background tasks.
+
+## Photo progress — 27 October follow-up
+DT 700 PRO X and DT 900 PRO X now use locally hosted TStudio/Pexels photographs. Model markings were inspected visually, the Pexels License was reviewed, and source/license/credit records are included. Cleared coverage is now 14/54, with 40 still pending. No image variants were substituted.
