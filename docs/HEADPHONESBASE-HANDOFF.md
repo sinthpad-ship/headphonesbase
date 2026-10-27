@@ -44,3 +44,5 @@ Image rights for 42 models; approved non-Amazon publisher accounts and tracking 
 
 ## Photo progress — 27 October follow-up
 DT 700 PRO X and DT 900 PRO X now use locally hosted TStudio/Pexels photographs. Model markings were inspected visually, the Pexels License was reviewed, and source/license/credit records are included. Cleared coverage is now 14/54, with 40 still pending. No image variants were substituted.
+
+ATH-M50x now also uses a locally hosted Jessica Lewis/Pexels photograph with readable model markings. Cleared coverage: 15/54; 39 pending.
