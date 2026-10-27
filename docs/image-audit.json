@@ -1,7 +1,7 @@
 {
   "reviewedAt": "2026-10-27",
   "total": 54,
-  "cleared": 14,
+  "cleared": 15,
   "note": "Rights review only. Cleared does not prove image delivery; run a separate HTTP/browser check. A candidate URL is not permission.",
   "models": [
     {
@@ -32,8 +32,8 @@
       "slug": "audio-technica-ath-m50x",
       "brand": "Audio-Technica",
       "model": "ATH-M50x",
-      "rightsStatus": "unverified",
-      "imageUrl": "https://www.audio-technica.com/media/converted/resized/8237ad855f92724d67dc7c6e6da25cee/1000x1000/catalog/product/a/t/ath-m50x_01a1x.webp",
+      "rightsStatus": "cleared",
+      "imageUrl": "/images/models/audio-technica-ath-m50x.jpg",
       "sourceUrl": "https://www.audio-technica.com/en/ath-m50x"
     },
     {
